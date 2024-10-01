@@ -1,0 +1,38 @@
+@import '_content/BergSoft.UI.Blazor/BergSoft.UI.Blazor.bundle.scp.css';
+
+/* /Components/AlertCell.razor.rz.scp.css */
+.AlertCell h2[b-xl6952dlb7] {
+    font-size: 12px;
+}
+/* /Components/DataList.razor.rz.scp.css */
+.DataList[b-vr0dsp92uc] {
+    background: #efefef;
+}
+/* /Components/HeaderPanel.razor.rz.scp.css */
+.HeaderPanel[b-2yrtr6zsvl] {
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+    .HeaderPanel:focus-within[b-2yrtr6zsvl] {
+        outline: 2px solid #2B40A4;
+    }
+
+    .HeaderPanel header[b-2yrtr6zsvl] {
+        align-items: center;
+        background: #fafafa;
+        color: #444;
+        display: flex;
+        gap: 10px;
+        font-family: Circular-Book, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        padding: 0 10px;
+        height: 44px;
+    }
+
+    .HeaderPanel > div[b-2yrtr6zsvl] {
+        padding: .625em; /* 10px */
+    }

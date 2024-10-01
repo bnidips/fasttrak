@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DIPS.FastTrak.UI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DIPS.FastTrak.UI.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\wwwroot\\exampleJsInterop.js",
+      "PackagePath": "staticwebassets\\exampleJsInterop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DIPS.FastTrak.UI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DIPS.FastTrak.UI.props",
+      "PackagePath": "build\\DIPS.FastTrak.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DIPS.FastTrak.UI.props",
+      "PackagePath": "buildMultiTargeting\\DIPS.FastTrak.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DIPS.FastTrak.UI.props",
+      "PackagePath": "buildTransitive\\DIPS.FastTrak.UI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

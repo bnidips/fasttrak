@@ -1,0 +1,11 @@
+<article class="Panel" @attributes="Attributes">
+    @ChildContent
+</article>
+
+@code {
+    [Parameter(CaptureUnmatchedValues = true)]
+    public Dictionary<string, object>? Attributes { get; set; }
+
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+}

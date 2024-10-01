@@ -1,0 +1,6 @@
+.Toolbar[b-p8fn2l7kx8] {
+    background: var(--surface);
+    border-radius: var(--borderRadius);
+    display: flex;
+    padding: var(--borderRadius);
+}

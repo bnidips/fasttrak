@@ -1,0 +1,103 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows,browser
+build_property.RootNamespace = DIPS.FastTrak.UI
+build_property.RootNamespace = DIPS.FastTrak.UI
+build_property.ProjectDir = C:\Projects\FastTrak\DIPS.FastTrak.UI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Projects\FastTrak\DIPS.FastTrak.UI
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Projects/FastTrak/DIPS.FastTrak.UI/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/FastTrak/DIPS.FastTrak.UI/Avatar.razor]
+build_metadata.AdditionalFiles.TargetPath = QXZhdGFyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-6xdvx25pse
+
+[C:/Projects/FastTrak/DIPS.FastTrak.UI/ClinFormTitle.razor]
+build_metadata.AdditionalFiles.TargetPath = Q2xpbkZvcm1UaXRsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-x7ytjupthr
+
+[C:/Projects/FastTrak/DIPS.FastTrak.UI/DropButton.razor]
+build_metadata.AdditionalFiles.TargetPath = RHJvcEJ1dHRvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-9i7cm87tro
+
+[C:/Projects/FastTrak/DIPS.FastTrak.UI/ListBox.razor]
+build_metadata.AdditionalFiles.TargetPath = TGlzdEJveC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-nqobr4kfw9
+
+[C:/Projects/FastTrak/DIPS.FastTrak.UI/MenuOption.razor]
+build_metadata.AdditionalFiles.TargetPath = TWVudU9wdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-jcec9phc3u
+
+[C:/Projects/FastTrak/DIPS.FastTrak.UI/PageControl.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZUNvbnRyb2wucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-0wf5wydbkf
+
+[C:/Projects/FastTrak/DIPS.FastTrak.UI/PageSheet.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZVNoZWV0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-9umhkp5t4z
+
+[C:/Projects/FastTrak/DIPS.FastTrak.UI/Panel.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFuZWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-j8mt9n58ps
+
+[C:/Projects/FastTrak/DIPS.FastTrak.UI/PanelHeader.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFuZWxIZWFkZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-s1wc2re29x
+
+[C:/Projects/FastTrak/DIPS.FastTrak.UI/PanelSubHeader.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFuZWxTdWJIZWFkZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-mt0ixoi50t
+
+[C:/Projects/FastTrak/DIPS.FastTrak.UI/PanelTextBox.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFuZWxUZXh0Qm94LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-2ibc3f8wsr
+
+[C:/Projects/FastTrak/DIPS.FastTrak.UI/PopupMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = UG9wdXBNZW51LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-rukmfz1meq
+
+[C:/Projects/FastTrak/DIPS.FastTrak.UI/RoundButton.razor]
+build_metadata.AdditionalFiles.TargetPath = Um91bmRCdXR0b24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-r4qvp6usje
+
+[C:/Projects/FastTrak/DIPS.FastTrak.UI/SearchBar.razor]
+build_metadata.AdditionalFiles.TargetPath = U2VhcmNoQmFyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-nkylzkqkae
+
+[C:/Projects/FastTrak/DIPS.FastTrak.UI/Splitter.razor]
+build_metadata.AdditionalFiles.TargetPath = U3BsaXR0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-u3je4nwypn
+
+[C:/Projects/FastTrak/DIPS.FastTrak.UI/SubPanel.razor]
+build_metadata.AdditionalFiles.TargetPath = U3ViUGFuZWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-flv2mzo75k
+
+[C:/Projects/FastTrak/DIPS.FastTrak.UI/Toggle.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9nZ2xlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-0ofqrcbqc1
+
+[C:/Projects/FastTrak/DIPS.FastTrak.UI/Toolbar.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9vbGJhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-p8fn2l7kx8
+
+[C:/Projects/FastTrak/DIPS.FastTrak.UI/ToolButton.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9vbEJ1dHRvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-nh4mlca8q9
+
+[C:/Projects/FastTrak/DIPS.FastTrak.UI/ToolDivider.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9vbERpdmlkZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-6u8lez26ea

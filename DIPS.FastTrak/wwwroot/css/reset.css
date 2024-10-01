@@ -1,0 +1,20 @@
+﻿* {
+    box-sizing: border-box;
+    font-family: 'Circular Std Book';
+    font-size: 12px;
+}
+
+svg {
+    fill: var(--text);
+}
+
+html {
+    padding: 0;
+    font-size: 12px;
+}
+
+body {
+    background: var(--secondarySurface);
+    padding: 0;
+    margin: 0;
+}

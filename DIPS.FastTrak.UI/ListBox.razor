@@ -1,0 +1,61 @@
+@typeparam T
+
+<div class="ListBox" @attributes="Attributes">
+    @if (ItemsSource != null)
+    {
+        <Virtualize Items="ItemsSource">
+            <button class="Item @GetItemCssClass(context)" @ondblclick="async (e) => await HandleDblClick(context)" @onmousedown="(e) => SelectItem(context)">
+                @ItemTemplate(context)
+            </button>
+        </Virtualize>
+    }
+</div>
+
+@code {
+    #region Private fields
+
+    private T? _selectedItem;
+
+    #endregion
+
+    [Parameter(CaptureUnmatchedValues = true)]
+    public Dictionary<string, object>? Attributes { get; set; }
+
+    [Parameter]
+    public ICollection<T>? ItemsSource { get; set; }
+
+    [Parameter]
+    public RenderFragment<T> ItemTemplate { get; set; } = context => @<span>context</span>;
+
+    [Parameter]
+    public T? SelectedItem { get; set; }
+
+    [Parameter]
+    public EventCallback<T?> OnSelectedItemChanged { get; set; }
+
+    [Parameter]
+    public EventCallback<T> OnDblClick { get; set; }
+
+    protected override void OnInitialized()
+    {
+        _selectedItem = SelectedItem;
+        base.OnInitialized();
+    }
+
+    private string GetItemCssClass(T item)
+    {
+        if (item.Equals(_selectedItem)) return "IsSelected";
+        return "";
+    }
+
+    public void SelectItem(T? item)
+    {
+        _selectedItem = item;
+        OnSelectedItemChanged.InvokeAsync(_selectedItem);
+    }
+
+    private async Task HandleDblClick(T? item)
+    {
+        await OnDblClick.InvokeAsync(item);
+    }
+}

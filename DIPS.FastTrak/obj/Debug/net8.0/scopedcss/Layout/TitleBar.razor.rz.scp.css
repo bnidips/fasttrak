@@ -1,0 +1,37 @@
+.TitleBar[b-2qrtj38o6g] {
+    align-items: center;
+    background: var(--surface);
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    margin-bottom: 1px;
+    padding: 0 10px;
+}
+
+    .Person[b-2qrtj38o6g] {
+        display: flex;
+        align-items: center;
+    }
+
+    .Person h1[b-2qrtj38o6g] {
+        color: var(--text);
+        font-size: 24px;
+        font-weight: normal;
+        margin: 0 10px;
+        padding: 0;
+    }
+
+.User[b-2qrtj38o6g] {
+    display: flex;
+}
+
+.UserPersonalia[b-2qrtj38o6g] {
+    align-items: center;
+    color: var(--text);
+    display: flex;
+    gap: var(--borderRadiusLarge);
+}
+
+.Alerts[b-2qrtj38o6g] {
+
+}

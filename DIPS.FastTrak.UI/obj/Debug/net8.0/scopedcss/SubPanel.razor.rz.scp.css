@@ -1,0 +1,8 @@
+.SubPanel[b-flv2mzo75k] {
+    padding: 5px;
+    display: flex;
+}
+
+.SubPanel.Separator[b-flv2mzo75k] {
+    border-bottom: 1px solid var(--secondarySurface);
+}

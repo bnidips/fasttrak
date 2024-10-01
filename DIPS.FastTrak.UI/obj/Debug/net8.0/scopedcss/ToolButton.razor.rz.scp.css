@@ -1,0 +1,52 @@
+.ToolButton[b-nh4mlca8q9] {
+    align-items: stretch;
+    background: inherit;
+    border: 0;
+    border-radius: var(--borderRadius);
+    cursor: pointer;
+    display: flex;
+    min-height: 48px;
+    min-width: 48px;
+    outline: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+.ToolButton:disabled[b-nh4mlca8q9] {
+    cursor: default;
+    opacity: .5;
+}
+
+.Content[b-nh4mlca8q9] {
+    align-items: center;
+    color: var(--text);
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
+    min-width: 48px;
+    padding: var(--borderRadius);
+}
+
+.PopupButton[b-nh4mlca8q9] {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: clip;
+    width: 16px;
+}
+
+    .PopupButton:hover[b-nh4mlca8q9] {
+        background: inherit;
+        mix-blend-mode: var(--blendMode);
+    }
+
+.ToolButton svg[b-nh4mlca8q9] {
+    mix-blend-mode: unset;
+    display: block;
+    fill: var(--text);
+}
+
+.ToolButton:hover:not(:disabled)[b-nh4mlca8q9] {
+    background: var(--secondaryPrimary);
+}

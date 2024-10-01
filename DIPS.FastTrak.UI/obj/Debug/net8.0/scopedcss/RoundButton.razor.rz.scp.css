@@ -1,0 +1,20 @@
+.RoundButton[b-r4qvp6usje] {
+    align-items: center;
+    background: none;
+    border: 0;
+    border-radius: 14px;
+    color: var(--text);
+    cursor: pointer;
+    display: flex;
+    height: 28px;
+    justify-content: center;
+    width: 28px;
+}
+
+    .RoundButton:hover[b-r4qvp6usje] {
+        background: var(--secondaryPrimary);
+    }
+
+        .RoundButton:hover:active[b-r4qvp6usje] {
+            mix-blend-mode: var(--blendMode);
+        }

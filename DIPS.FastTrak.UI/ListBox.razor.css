@@ -1,0 +1,24 @@
+.ListBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.Item {
+    background: inherit;
+    border: 0;
+    border-radius: var(--borderRadiusSmall);
+    color: var(--text);
+    display: flex;
+    min-height: 16px;
+    outline: none;
+    padding: var(--borderRadius);
+}
+
+    .Item:hover {
+        background: var(--secondarySurface);
+    }
+
+    .Item.IsSelected {
+        background: var(--primary);
+        color: var(--primaryInverted);
+    }

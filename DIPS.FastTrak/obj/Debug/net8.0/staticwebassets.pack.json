@@ -1,0 +1,73 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\obj\\Debug\\net8.0\\compressed\\6dtnwt5r31.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DIPS.FastTrak.styles.css",
+      "PackagePath": "staticwebassets\\DIPS.FastTrak.styles.css"
+    },
+    {
+      "Id": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
+      "Id": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\css\\reset.css",
+      "PackagePath": "staticwebassets\\css\\reset.css"
+    },
+    {
+      "Id": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\css\\themes\\dark.css",
+      "PackagePath": "staticwebassets\\css\\themes\\dark.css"
+    },
+    {
+      "Id": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\css\\themes\\light.css",
+      "PackagePath": "staticwebassets\\css\\themes\\light.css"
+    },
+    {
+      "Id": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\css\\variables.css",
+      "PackagePath": "staticwebassets\\css\\variables.css"
+    },
+    {
+      "Id": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\images\\person.svg",
+      "PackagePath": "staticwebassets\\images\\person.svg"
+    },
+    {
+      "Id": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\images\\settings.svg",
+      "PackagePath": "staticwebassets\\images\\settings.svg"
+    },
+    {
+      "Id": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DIPS.FastTrak.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DIPS.FastTrak.props",
+      "PackagePath": "build\\DIPS.FastTrak.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DIPS.FastTrak.props",
+      "PackagePath": "buildMultiTargeting\\DIPS.FastTrak.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DIPS.FastTrak.props",
+      "PackagePath": "buildTransitive\\DIPS.FastTrak.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

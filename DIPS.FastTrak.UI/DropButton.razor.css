@@ -1,0 +1,27 @@
+.DropButton {
+    align-items: center;
+    background: none;
+    border: 0;
+    border-radius: var(--borderRadius);
+    color: var(--text);
+    cursor: pointer;
+    display: flex;
+    gap: var(--borderRadius);
+    height: 28px;
+    padding: 0 var(--borderRadius);
+}
+
+    .DropButton.PillShape {
+        border-radius: 14px;
+        padding: 0 var(--borderRadiusLarge);
+    }
+
+    .DropButton:hover {
+        background: var(--secondaryPrimary);
+    }
+
+.Content {
+    align-items: center;
+    display: flex;
+    gap: var(--borderRadius);
+}

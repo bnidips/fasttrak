@@ -1,0 +1,36 @@
+.PanelHeader[b-s1wc2re29x] {
+    align-items: center;
+    font-family: 'Circular Std Medium';
+    font-size: 18px;
+    color: var(--text);
+    display: flex;
+    gap: 10px;
+    height: 44px;
+    padding: 10px;
+    user-select: none;
+}
+
+    .PanelHeader.Separator[b-s1wc2re29x] {
+        border-bottom: 1px solid var(--secondarySurface);
+    }
+
+    .PanelHeader button[b-s1wc2re29x] {
+        align-items: center;
+        background: none;
+        border: 0;
+        border-radius: var(--borderRadiusSmall);
+        display: flex;
+        flex-shrink: 0;
+        height: 24px;
+        justify-content: center;
+        width: 24px;
+    }
+
+    .PanelHeader button:hover[b-s1wc2re29x] {
+        background: var(--neutralLight);
+        cursor: pointer;
+    }
+
+.Stripes rect[b-s1wc2re29x] {
+    fill: var(--stripesFill);
+}

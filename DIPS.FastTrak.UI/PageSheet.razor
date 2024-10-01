@@ -1,0 +1,25 @@
+@if (IsActive)
+{
+    <div class="PageSheet">
+        @ChildContent
+    </div>
+}
+
+@code {
+    [CascadingParameter]
+    internal PageControl? PageControl { get; set; }
+
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+
+    [Parameter]
+    public RenderFragment? Title { get; set; }
+
+    private bool IsActive => PageControl?.ActivePage == this;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        PageControl?.AddPage(this);
+    }
+}

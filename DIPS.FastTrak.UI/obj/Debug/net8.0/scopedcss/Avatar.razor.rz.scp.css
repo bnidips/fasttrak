@@ -1,0 +1,14 @@
+.Avatar[b-6xdvx25pse] {
+    align-items: center;
+    background: var(--neutralLight);
+    border-radius: 20px;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    width: 40px;
+}
+
+.Avatar svg[b-6xdvx25pse] {
+    display: block;
+    fill: var(--text);
+}

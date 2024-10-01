@@ -1,0 +1,4 @@
+.Panel {
+    background: var(--surface);
+    border-radius: var(--borderRadius);
+}

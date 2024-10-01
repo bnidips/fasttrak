@@ -1,0 +1,109 @@
+﻿@page "/"
+@inject IPopulationsService PopulationsService
+@inject IProblemsService ProblemsService
+@inject IAutorization Authorization
+@inject IGlobalSearch GlobalSearch
+@inject IUiService Ui
+@inject NavigationManager Navigation
+
+<PageTitle>FastTrak</PageTitle>
+
+<section style="display: flex; gap: 10px; padding: 10px; flex: 1">       
+    <section style="width: 270px; display: flex; flex-direction: column">
+        <Panel>
+            <PanelHeader Separator="true">
+                <Header>Populasjon</Header>
+            </PanelHeader>
+            <PanelSubHeader>
+                Diabetes Type 1
+            </PanelSubHeader> 
+            <SubPanel>
+                <PanelTextBox @bind-Value="PopulationsService.StudyCasesFilter" placeholder="Filter / søketekst" style="flex: 1" />
+            </SubPanel>
+            <PageControl style="width: 100%">
+                <PageSheet>
+                    <Title>
+                        <svg width="16" height="16" viewBox="0 0 24 24">
+                            <path d="M17.754 14a2.249 2.249 0 0 1 2.25 2.249v.575c0 .894-.32 1.76-.902 2.438-1.57 1.834-3.957 2.739-7.102 2.739-3.146 0-5.532-.905-7.098-2.74a3.75 3.75 0 0 1-.898-2.435v-.577a2.249 2.249 0 0 1 2.249-2.25h11.501Zm0 1.5H6.253a.749.749 0 0 0-.75.749v.577c0 .536.192 1.054.54 1.461 1.253 1.468 3.219 2.214 5.957 2.214s4.706-.746 5.962-2.214a2.25 2.25 0 0 0 .541-1.463v-.575a.749.749 0 0 0-.749-.75ZM12 2.004a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Z" />
+                        </svg>
+                        <span>Individer</span>
+                    </Title>
+                    <ChildContent>
+                        <ListBox T="StudyCase" ItemsSource="PopulationsService.ActivePopulation" style="height: 280px" OnDblClick="HandleStudyCaseDblClick">
+                            <ItemTemplate>
+                                <div class="StudyCase">
+                                    <div class="PersonId">
+                                        @context.PersonId
+                                    </div>
+                                    <div class="PersonInfo">
+                                        <span>12.06.1974</span>
+                                        <span>@context.FullName</span>
+                                        <span>Aktiv</span>
+                                    </div>
+                                    <div class="StudyGroup">Poliklinikk</div>
+                                </div>
+                            </ItemTemplate>
+                        </ListBox>
+                    </ChildContent>
+                </PageSheet>
+                <PageSheet>
+                    <Title>
+                        <svg width="16" height="16" viewBox="0 0 24 24">
+                            <path d="M14.75 15c.966 0 1.75.784 1.75 1.75l-.001.962c.117 2.19-1.511 3.297-4.432 3.297-2.91 0-4.567-1.09-4.567-3.259v-1c0-.966.784-1.75 1.75-1.75h5.5Zm0 1.5h-5.5a.25.25 0 0 0-.25.25v1c0 1.176.887 1.759 3.067 1.759 2.168 0 2.995-.564 2.933-1.757V16.75a.25.25 0 0 0-.25-.25Zm-11-6.5h4.376a4.007 4.007 0 0 0-.095 1.5H3.75a.25.25 0 0 0-.25.25v1c0 1.176.887 1.759 3.067 1.759.462 0 .863-.026 1.207-.077a2.743 2.743 0 0 0-1.173 1.576l-.034.001C3.657 16.009 2 14.919 2 12.75v-1c0-.966.784-1.75 1.75-1.75Zm16.5 0c.966 0 1.75.784 1.75 1.75l-.001.962c.117 2.19-1.511 3.297-4.432 3.297l-.169-.002a2.755 2.755 0 0 0-1.218-1.606c.387.072.847.108 1.387.108 2.168 0 2.995-.564 2.933-1.757V11.75a.25.25 0 0 0-.25-.25h-4.28a4.05 4.05 0 0 0-.096-1.5h4.376ZM12 8a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm0 1.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3ZM6.5 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm11 0a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm-11 1.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Zm11 0a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z" />
+                        </svg>
+                        <span>Populasjoner</span>
+                    </Title>
+                    <ChildContent>
+                        <ListBox T="Population">
+
+                        </ListBox>
+                    </ChildContent>
+                </PageSheet>
+            </PageControl>
+        </Panel>
+        <div style="height: 8px"></div>
+        <Panel style="flex: 1">
+            <PanelHeader Separator="true">
+                <Header>Historikk</Header>
+            </PanelHeader>
+        </Panel>
+    </section>
+
+    <section style="flex: 1">
+        <Panel>
+            <PanelHeader>
+                <Header>
+                    <svg width="16" height="16" viewBox="0 0 24 24">
+                        <path d="M10.55 2.532a2.25 2.25 0 0 1 2.9 0l6.75 5.692c.507.428.8 1.057.8 1.72v9.803a1.75 1.75 0 0 1-1.75 1.75h-3.5a1.75 1.75 0 0 1-1.75-1.75v-5.5a.25.25 0 0 0-.25-.25h-3.5a.25.25 0 0 0-.25.25v5.5a1.75 1.75 0 0 1-1.75 1.75h-3.5A1.75 1.75 0 0 1 3 19.747V9.944c0-.663.293-1.292.8-1.72l6.75-5.692Zm1.933 1.147a.75.75 0 0 0-.966 0L4.767 9.37a.75.75 0 0 0-.267.573v9.803c0 .138.112.25.25.25h3.5a.25.25 0 0 0 .25-.25v-5.5c0-.967.784-1.75 1.75-1.75h3.5c.966 0 1.75.783 1.75 1.75v5.5c0 .138.112.25.25.25h3.5a.25.25 0 0 0 .25-.25V9.944a.75.75 0 0 0-.267-.573l-6.75-5.692Z" />
+                    </svg>
+                    Startside
+                </Header>
+            </PanelHeader>
+            <div style="background: #fff; flex: 1">
+
+            </div>
+        </Panel>
+    </section>
+
+    <section style="width: 270px">
+        <Panel>
+            <PanelHeader>
+                <Header>Rapporter</Header>
+            </PanelHeader>
+        </Panel>
+    </section>
+</section>
+
+@code {
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        Authorization.Authorize();
+    }
+
+    private void HandleStudyCaseDblClick(StudyCase studyCase)
+    {
+        PopulationsService.ActiveStudyCase = studyCase;
+        Navigation.NavigateTo("PatientJournal");
+    }
+}

@@ -1,0 +1,29 @@
+﻿@inherits LayoutComponentBase
+@inject IUiService Ui
+@inject IGlobalSearch GlobalSearch
+
+@if (Ui.DarkMode)
+{
+    <link href="css/themes/dark.css" rel="stylesheet" />
+}
+else
+{
+    <link href="css/themes/light.css" rel="stylesheet" />
+}
+
+<main>
+    <TitleBar OnSearch="HandleSearch" />
+    <TabsBar>
+
+    </TabsBar>
+@Body
+    <StatusBar />
+</main>
+
+@code {
+    private async Task HandleSearch(string search)
+    {
+        await GlobalSearch.SearchAsync(search);
+        StateHasChanged();
+    }
+}

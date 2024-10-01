@@ -1,0 +1,29 @@
+.PageControl {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+    .PageControl .Tabs {
+        background: var(--secondarySurface);
+        display: flex;   
+        gap: var(--borderRadiusSmall);
+    }
+
+    .PageControl .Tab {
+        align-items: center;
+        color: var(--text);
+        cursor: pointer;
+        display: flex;
+        gap: var(--borderRadiusSmall);
+        padding: 7px;
+        border-radius: 0 0 5px 5px;
+    }
+
+        .PageControl .Tab.IsActive {
+            background: var(--surface);
+        }
+
+    .PageControl .Tab:hover:not(.IsActive) {
+        background: var(--neutralLight);
+    }

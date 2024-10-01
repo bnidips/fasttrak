@@ -1,0 +1,52 @@
+<CascadingValue Value="this">
+    <div class="PopupMenu">
+        @ChildContent
+        @if (_isOpen)
+        {
+            <div class="MenuOptions">
+                @MenuOptions
+            </div>
+        }
+    </div>
+</CascadingValue>
+
+@code {
+    bool _isOpen;
+
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+
+    [Parameter]
+    public RenderFragment? MenuOptions { get; set; }
+
+    [Parameter]
+    public bool IsOpen { get; set; }
+
+    [Parameter]
+    public EventCallback<bool> IsOpenChanged { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        base.OnParametersSet();
+        _isOpen = IsOpen;
+    }
+
+    public async Task CloseAsync()
+    {
+        _isOpen = false;
+        await UpdateOpen();
+    }
+
+    public async Task OpenAsync()
+    {
+        _isOpen = true;
+        await UpdateOpen();
+    }
+
+    public async Task UpdateOpen()
+    {
+        await IsOpenChanged.InvokeAsync(_isOpen);
+        await InvokeAsync(StateHasChanged);
+    }
+}
+

@@ -1,0 +1,37 @@
+.TitleBar {
+    align-items: center;
+    background: var(--surface);
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    margin-bottom: 1px;
+    padding: 0 10px;
+}
+
+    .Person {
+        display: flex;
+        align-items: center;
+    }
+
+    .Person h1 {
+        color: var(--text);
+        font-size: 24px;
+        font-weight: normal;
+        margin: 0 10px;
+        padding: 0;
+    }
+
+.User {
+    display: flex;
+}
+
+.UserPersonalia {
+    align-items: center;
+    color: var(--text);
+    display: flex;
+    gap: var(--borderRadiusLarge);
+}
+
+.Alerts {
+
+}

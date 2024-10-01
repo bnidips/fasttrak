@@ -1,0 +1,56 @@
+﻿@inject NavigationManager Navigation
+@inject IPopulationsService Populations
+
+<section class="TabsBar">
+    @if (Populations.ActiveStudyCase == null)
+    {
+        <button class="Tab IsActive" @onmousedown="_ => Navigate()">Populasjon</button>
+        <button class="Tab" @onmousedown="_ => Navigate()">Nøkkeltall</button>
+    }
+    else
+    {
+        <button class="Tab IsActive" @onmousedown="_ => Navigate()">Kliniske data</button>
+        <button class="Tab" @onmousedown="_ => Navigate()">Labdata</button>
+    }
+    <aside>
+        @ChildContent
+        @if (Populations.ActiveStudyCase != null)
+        {
+            <RoundButton OnClick="HandleCloseActiveCase" Style="RoundButton.RoundButtonStyle.Alert">
+                <svg width="16" height="16" viewBox="0 0 24 24">
+                    <path d="m4.397 4.554.073-.084a.75.75 0 0 1 .976-.073l.084.073L12 10.939l6.47-6.47a.75.75 0 1 1 1.06 1.061L13.061 12l6.47 6.47a.75.75 0 0 1 .072.976l-.073.084a.75.75 0 0 1-.976.073l-.084-.073L12 13.061l-6.47 6.47a.75.75 0 0 1-1.06-1.061L10.939 12l-6.47-6.47a.75.75 0 0 1-.072-.976l.073-.084-.073.084Z" />
+                </svg>
+            </RoundButton>
+        }
+    </aside>
+</section>
+
+@code {
+    [Parameter]
+    public int ActiveTabIndex { get; set; } = 0;
+
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+
+    protected void Navigate()
+    {
+        Navigation.NavigateTo("/LabData");
+    }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        Populations.ActiveStudyCaseChanged += OnActiveStudyCaseChanged;
+    }
+
+    public void OnActiveStudyCaseChanged(StudyCase? studyCase)
+    {
+        StateHasChanged();
+    }
+
+    private void HandleCloseActiveCase()
+    {
+        Populations.ActiveStudyCase = null;
+        Navigation.NavigateTo("/");
+    }
+}

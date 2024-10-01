@@ -1,0 +1,11 @@
+﻿:root {
+    --primary: #2b40a4;
+    --primaryInverted: #ffffff;
+    --secondaryPrimary: #b5e4d6;
+    --surface: #ffffff;
+    --secondarySurface: #eff0f1;
+    --text: #212121;
+    --stripesFill: rgba(33, 33, 33, .25);
+    --neutralLight: rgba(33, 33, 33, .06);
+    --blendMode: multiply;
+}

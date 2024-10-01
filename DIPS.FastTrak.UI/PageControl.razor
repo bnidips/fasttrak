@@ -1,0 +1,44 @@
+<div class="PageControl" @attributes="Attributes">
+    <CascadingValue Value="this">
+        <div class="Tabs">
+            @foreach (var pageSheet in _pages)
+            {
+                var tabClass = pageSheet == _activePage ? "IsActive" : "";
+                <div class="Tab @tabClass" @onmousedown="async () => await ActivatePageAsync(pageSheet)">
+                    @pageSheet.Title
+                </div>
+            }
+        </div>
+        @ChildContent
+    </CascadingValue>
+</div>
+
+@code {
+    #region Private fields
+
+    private PageSheet? _activePage;
+
+    private List<PageSheet> _pages = [];
+
+    #endregion
+
+    [Parameter(CaptureUnmatchedValues = true)]
+    public Dictionary<string, object>? Attributes { get; set; }
+
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+
+    public PageSheet? ActivePage => _activePage;
+
+    public async Task ActivatePageAsync(PageSheet pageSheet)
+    {
+        await Task.FromResult(_activePage = pageSheet);
+    }
+
+    public void AddPage(PageSheet pageSheet)
+    {
+        _pages.Add(pageSheet);
+        if (ActivePage == null) _activePage = pageSheet;
+        StateHasChanged();
+    }
+}

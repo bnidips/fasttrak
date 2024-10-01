@@ -1,0 +1,33 @@
+﻿<header class="PanelHeader @GetHeaderCssClass()" @attributes="Attributes">
+    @Header
+    <svg class="Stripes" height="5" width="100%" viewBox="0 0 100 5" preserveAspectRatio="none">
+        <rect x="0" y="0" width="100" height="1" />
+        <rect x="0" y="2" width="100" height="1" />
+        <rect x="0" y="4" width="100" height="1" />
+    </svg>
+    <button>
+        <svg width="24" height="24" viewBox="0 0 24 24">
+            <path d="M4.22 8.47a.75.75 0 0 1 1.06 0L12 15.19l6.72-6.72a.75.75 0 1 1 1.06 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L4.22 9.53a.75.75 0 0 1 0-1.06Z" />
+        </svg>
+    </button>
+</header>
+
+@code {
+    #region Parameters
+
+    [Parameter(CaptureUnmatchedValues = true)]
+    public Dictionary<string, object>? Attributes { get; set; }
+
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+
+    [Parameter]
+    public RenderFragment? Header { get; set; }
+
+    [Parameter]
+    public bool Separator { get; set; }
+
+    #endregion
+
+    private string GetHeaderCssClass() => Separator ? "Separator" : "";
+}

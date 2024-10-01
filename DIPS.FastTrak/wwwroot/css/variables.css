@@ -1,0 +1,6 @@
+﻿:root {
+    --borderRadius: 5px;
+    --borderRadiusSmall: 3px;
+    --borderRadiusLarge: 10px;
+    --controlHeight: 24px;
+}

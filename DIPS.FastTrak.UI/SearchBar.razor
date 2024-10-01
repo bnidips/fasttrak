@@ -1,0 +1,98 @@
+@typeparam T where T : ISearchResult
+
+<div class="SearchBar">
+    <input type="text" @oninput="HandleInput" value="@_value" />
+    <button>
+        <svg width="16" height="16" fill="none" viewBox="0 0 24 24">
+            <path d="M10 2.75a7.25 7.25 0 0 1 5.63 11.819l4.9 4.9a.75.75 0 0 1-.976 1.134l-.084-.073-4.901-4.9A7.25 7.25 0 1 1 10 2.75Zm0 1.5a5.75 5.75 0 1 0 0 11.5 5.75 5.75 0 0 0 0-11.5Z" />
+        </svg>
+    </button>
+    @if (_isOpen)
+    {
+        <div class="SearchResults">
+            @if (_list != null && _list.Count > 0)
+            {
+                <Virtualize Items="_list">
+                    <div class="SearchResult" @onclick="async () => await HandleResultClick(context)">
+                        @ItemTemplate(context)
+                    </div>
+                </Virtualize>
+            }
+            else
+            {
+                <div class="NoResult">
+                    no result
+                </div>
+            }
+        </div>
+    }
+</div>
+
+@code {
+    bool _isOpen;
+
+    string _value = "";
+
+    IList<T>? _list;
+
+    /// <summary>
+    /// 
+    /// </summary>
+    [Parameter]
+    public bool IsOpen { get; set; }
+
+    [Parameter]
+    public EventCallback<bool> IsOpenChanged { get; set; }
+
+    [Parameter, EditorRequired]
+    public IList<T>? ItemsSource { get; set; }
+
+    [Parameter]
+    public RenderFragment<T> ItemTemplate { get; set; } = context => @<span>@context</span>;
+
+    [Parameter]
+    public string? Value { get; set; }
+
+    [Parameter]
+    public EventCallback<string?> ValueChanged { get; set; }
+
+    [Parameter]
+    public EventCallback<string> OnSearch { get; set; }
+
+    [Parameter]
+    public EventCallback<T> OnResultClick { get; set; }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        _isOpen = IsOpen;
+        _list = ItemsSource;
+    }
+
+    protected override void OnParametersSet()
+    {
+        base.OnParametersSet();
+        _list = ItemsSource;
+    }
+
+    protected async Task SetIsOpenAsync(bool value)
+    {
+        _isOpen = value;
+        await IsOpenChanged.InvokeAsync(_isOpen);
+    }
+
+    private async Task HandleInput(ChangeEventArgs eventArgs)
+    {
+        _value = eventArgs.Value?.ToString() ?? "";
+        await ValueChanged.InvokeAsync(_value);
+        await OnSearch.InvokeAsync(_value);
+        await SetIsOpenAsync(_value.Length > 0);
+    }
+
+    private async Task HandleResultClick(T result)
+    {
+        await OnResultClick.InvokeAsync(result);
+        _isOpen = false;
+        StateHasChanged();
+    }
+}

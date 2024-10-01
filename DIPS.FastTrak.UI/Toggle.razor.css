@@ -1,0 +1,41 @@
+.ToggleContainer {
+    align-items: center;
+    display: flex;
+    gap: var(--borderRadius);
+    flex-direction: row;
+}
+
+    .ToggleContainer.FlipLayout {
+        flex-direction: row-reverse;
+    }
+
+    .Toggle {
+        align-items: center;
+        background: var(--neutralLight);
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        display: flex;
+        justify-content: flex-start;
+        height: 16px;
+        outline: none;
+        padding: 2px;
+        transition: all 0.1s ease 0s;
+        width: 30px;
+    }
+
+    .Toggle.IsChecked {
+        background: var(--primary);
+        justify-content: flex-end;
+    }
+
+.Toggle > div {
+    background: var(--text);
+    border-radius: 6px;
+    height: 12px;
+    width: 12px;
+}
+
+    .Toggle.IsChecked > div {
+        background: var(--primaryInverted);
+    }

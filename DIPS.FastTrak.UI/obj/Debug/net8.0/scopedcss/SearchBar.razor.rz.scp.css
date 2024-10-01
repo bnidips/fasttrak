@@ -1,0 +1,74 @@
+.SearchBar[b-nkylzkqkae] {
+    background: var(--neutralLight);
+    border: 0;
+    border-radius: 16px;
+    display: flex;
+    height: 32px;
+    justify-content: flex-start;
+    outline: none;
+    padding: 0 0 0 12px;
+    position: relative;
+    width: 320px;
+}
+
+    .SearchBar > input[b-nkylzkqkae] {
+        background: none;
+        border: 0;
+        color: var(--text);
+        flex: 1;
+        outline: none;
+    }
+
+    .SearchBar > button[b-nkylzkqkae] {
+        background: none;
+        border: 0;
+        border-radius: 16px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        outline: none;
+        padding: 0;
+        width: 32px;
+    }
+
+        .SearchBar > button > svg[b-nkylzkqkae] {
+            fill: var(--text);
+        }
+
+        .SearchBar > button:hover[b-nkylzkqkae] {
+            background: var(--secondaryPrimary);
+        }
+
+        .SearchBar > button:hover > svg[b-nkylzkqkae] {
+            fill: #fff;
+        }
+
+.SearchResults[b-nkylzkqkae] {
+    background: #0A0D30;
+    border-radius: var(--borderRadiusLarge);
+    color: var(--primaryInverted);
+    display: flex;
+    flex-direction: column;
+    padding: var(--borderRadiusLarge);
+    position: absolute;
+    top: 100%;
+    left: -5%;
+    width: 110%;
+    z-index: 1000;
+}
+
+    .SearchResult[b-nkylzkqkae] {
+        align-items: center;
+        border-radius: var(--borderRadius);
+        cursor: pointer;
+        display: flex;
+        gap: var(--borderRadius);
+        height: 36px;
+        padding: 0 0 0 10px;
+    }
+
+        .SearchResult:hover[b-nkylzkqkae] {
+            background: var(--primary);
+            mix-blend-mode: screen;
+        }

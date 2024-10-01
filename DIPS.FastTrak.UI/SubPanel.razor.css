@@ -1,0 +1,8 @@
+.SubPanel {
+    padding: 5px;
+    display: flex;
+}
+
+.SubPanel.Separator {
+    border-bottom: 1px solid var(--secondarySurface);
+}

@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\FastTrak\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|c:\\projects\\fasttrak\\dips.fasttrak.ui\\listbox.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|solutionrelative:dips.fasttrak.ui\\listbox.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListBox.razor",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\ListBox.razor",
+              "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\ListBox.razor",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\ListBox.razor",
+              "RelativeToolTip": "DIPS.FastTrak.UI\\ListBox.razor",
+              "ViewState": "AgIAACAAAAAAAAAAAAAjwC4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-01T07:45:32.72Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

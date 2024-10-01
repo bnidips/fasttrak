@@ -1,0 +1,29 @@
+.PageControl[b-0wf5wydbkf] {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+    .PageControl .Tabs[b-0wf5wydbkf] {
+        background: var(--secondarySurface);
+        display: flex;   
+        gap: var(--borderRadiusSmall);
+    }
+
+    .PageControl .Tab[b-0wf5wydbkf] {
+        align-items: center;
+        color: var(--text);
+        cursor: pointer;
+        display: flex;
+        gap: var(--borderRadiusSmall);
+        padding: 7px;
+        border-radius: 0 0 5px 5px;
+    }
+
+        .PageControl .Tab.IsActive[b-0wf5wydbkf] {
+            background: var(--surface);
+        }
+
+    .PageControl .Tab:hover:not(.IsActive)[b-0wf5wydbkf] {
+        background: var(--neutralLight);
+    }

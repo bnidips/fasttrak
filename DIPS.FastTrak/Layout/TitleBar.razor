@@ -1,0 +1,75 @@
+@inject IGlobalSearch GlobalSearch
+@inject IUserService UserService
+@inject IPopulationsService Population
+@inject IUserService UserService
+
+<header class="TitleBar">
+    <section class="Person">
+        @if (Population.ActiveStudyCase != null)
+        {
+            <Avatar />
+            <h1>@Population.ActiveStudyCase.FullName (@Population.ActiveStudyCase.Age)</h1>
+        }
+        else
+        {
+
+        }
+    </section>
+
+    <SearchBar T="ISearchResult" ItemsSource="GlobalSearch.SearchResults" OnSearch="OnSearch" OnResultClick="HandleResultClick">
+        <ItemTemplate>
+            <img src="images/@context.SearchIcon" />
+            @context.SearchTitle           
+        </ItemTemplate>
+    </SearchBar>
+
+    <section style="display: flex; align-items: center; gap: 10px">
+        <section class="User">
+            <DropButton PillShape="true">
+                <svg width="16" height="16" viewBox="0 0 24 24">
+                    <path d="M8.5 5.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2ZM7.5 13.5a1 1 0 1 1 2 0 1 1 0 0 1-2 0ZM8.5 9a1 1 0 1 0 0 2 1 1 0 0 0 0-2ZM11 6.5a1 1 0 1 1 2 0 1 1 0 0 1-2 0ZM12 12.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2ZM14.5 13.5a1 1 0 1 1 2 0 1 1 0 0 1-2 0ZM12 9a1 1 0 1 0 0 2 1 1 0 0 0 0-2Z" />
+                    <path d="M6.25 2A2.25 2.25 0 0 0 4 4.25v16.5c0 .414.336.75.75.75h14.503a.75.75 0 0 0 .75-.75v-9a2.25 2.25 0 0 0-2.25-2.25H16.5V4.25A2.25 2.25 0 0 0 14.25 2h-8ZM5.5 4.25a.75.75 0 0 1 .75-.75h8a.75.75 0 0 1 .75.75v6c0 .414.336.75.75.75h2.003a.75.75 0 0 1 .75.75V20H16.5v-2.75a.75.75 0 0 0-.75-.75h-7.5a.75.75 0 0 0-.75.75V20h-2V4.25ZM15 18v2h-2.25v-2H15Zm-3.75 0v2H9v-2h2.25Z" />
+                </svg>
+                <span>@UserService.StudyCenter?.CenterName</span>
+            </DropButton>
+
+        </section>
+
+        <section class="UserPersonalia">
+            <Avatar />
+            <section>
+                @UserService.CurrentUser.FirstName @UserService.CurrentUser.LastName
+            </section>
+        </section>
+
+        <section class="Alerts">
+            <PopupMenu>
+                <MenuOptions>
+                    <MenuOption Text="Alert 1" />
+                </MenuOptions>
+                <ChildContent>
+                    <RoundButton>
+                        <svg width="24" height="24" viewBox="0 0 24 24">
+                            <path d="M12 1.996a7.49 7.49 0 0 1 7.496 7.25l.004.25v4.097l1.38 3.156a1.25 1.25 0 0 1-1.145 1.75L15 18.502a3 3 0 0 1-5.995.177L9 18.499H4.275a1.251 1.251 0 0 1-1.147-1.747L4.5 13.594V9.496c0-4.155 3.352-7.5 7.5-7.5ZM13.5 18.5l-3 .002a1.5 1.5 0 0 0 2.993.145l.006-.147ZM12 3.496c-3.32 0-6 2.674-6 6v4.41L4.656 17h14.697L18 13.907V9.509l-.004-.225A5.988 5.988 0 0 0 12 3.496Z" />
+                        </svg>
+                    </RoundButton>
+                </ChildContent>
+            </PopupMenu>
+        </section>
+
+        <section class="Logo">
+
+        </section>
+    </section>
+</header>
+
+@code {
+    [Parameter]
+    public EventCallback<string> OnSearch { get; set; }
+
+    private async Task HandleResultClick(ISearchResult result)
+    {
+        GlobalSearch.Invoke(result);
+        await InvokeAsync(StateHasChanged);
+    }
+}

@@ -1,0 +1,39 @@
+.PanelTextBox {
+    background: var(--neutralLight);
+    display: flex;
+    height: 24px;
+    border-radius: 12px;
+    border: 0;
+    outline: none;
+    padding: 0 0 0 10px;
+}
+
+.PanelTextBox > input {
+    background: none;
+    border: 0;
+    color: var(--text);
+    flex: 1;
+    outline: 0;
+}
+
+.PanelTextBox > button {
+    align-items: center;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    height: 24px;
+    justify-content: center;
+    min-width: 24px;
+    width: 24px;
+}
+
+    .PanelTextBox svg {
+        fill: var(--text);
+        min-height: 16px;
+        min-width: 16px;
+    }
+
+    .PanelTextBox > button:hover {
+/*        background: var(--secondaryPrimary);
+*/    }

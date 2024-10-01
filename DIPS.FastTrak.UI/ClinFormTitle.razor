@@ -1,0 +1,22 @@
+<div class="ClinFormTitle">
+    <div>
+        @Title
+    </div>
+    <div class="Metadata">
+        @FormId: @FormName (@ClinFormId)
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public string? Title { get; set; }
+
+    [Parameter]
+    public int FormId { get; set; }
+
+    [Parameter]
+    public string? FormName { get; set; }
+
+    [Parameter]
+    public int ClinFormId { get; set; }
+}

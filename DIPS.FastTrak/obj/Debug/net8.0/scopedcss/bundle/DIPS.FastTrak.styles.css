@@ -1,0 +1,80 @@
+@import '_content/DIPS.FastTrak.UI/DIPS.FastTrak.UI.bundle.scp.css';
+
+/* /Layout/StatusBar.razor.rz.scp.css */
+.StatusBar[b-59idrnadfk] {
+    align-items: center;
+    background: var(--surface);
+    color: var(--text);
+    display: flex;
+    height: 40px;
+    padding: 0 var(--borderRadiusLarge);
+}
+/* /Layout/TabsBar.razor.rz.scp.css */
+.TabsBar[b-20kqeuw5wb] {
+    background: var(--surface);
+    display: flex;
+    height: 40px;
+    padding: 0 20px;
+}
+
+    .TabsBar aside[b-20kqeuw5wb] {
+        align-items: center;
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+    }
+
+    .TabsBar .Tab[b-20kqeuw5wb] {
+        background: none;
+        border: 0;
+        color: var(--text);
+        cursor: pointer;
+        font-size: 16px;
+        padding: 0 10px;
+    }
+
+    .TabsBar .Tab:hover:not(.IsActive)[b-20kqeuw5wb]  {
+        background: var(--secondaryPrimary);
+    }
+
+        .TabsBar .Tab.IsActive[b-20kqeuw5wb] {
+            background: var(--secondarySurface);
+        }
+/* /Layout/TitleBar.razor.rz.scp.css */
+.TitleBar[b-2qrtj38o6g] {
+    align-items: center;
+    background: var(--surface);
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    margin-bottom: 1px;
+    padding: 0 10px;
+}
+
+    .Person[b-2qrtj38o6g] {
+        display: flex;
+        align-items: center;
+    }
+
+    .Person h1[b-2qrtj38o6g] {
+        color: var(--text);
+        font-size: 24px;
+        font-weight: normal;
+        margin: 0 10px;
+        padding: 0;
+    }
+
+.User[b-2qrtj38o6g] {
+    display: flex;
+}
+
+.UserPersonalia[b-2qrtj38o6g] {
+    align-items: center;
+    color: var(--text);
+    display: flex;
+    gap: var(--borderRadiusLarge);
+}
+
+.Alerts[b-2qrtj38o6g] {
+
+}

@@ -1,0 +1,60 @@
+<div @attributes="Attributes" class="PanelTextBox">
+    <input @oninput="HandleInput" type="text" value="@_value" placeholder="@Placeholder" />
+    @if (!string.IsNullOrWhiteSpace(_value))
+    {
+        <button @onclick="async () => await SetValue(string.Empty)">
+            <svg width="16" height="16" viewBox="0 0 24 24">
+                <path d="m4.397 4.554.073-.084a.75.75 0 0 1 .976-.073l.084.073L12 10.939l6.47-6.47a.75.75 0 1 1 1.06 1.061L13.061 12l6.47 6.47a.75.75 0 0 1 .072.976l-.073.084a.75.75 0 0 1-.976.073l-.084-.073L12 13.061l-6.47 6.47a.75.75 0 0 1-1.06-1.061L10.939 12l-6.47-6.47a.75.75 0 0 1-.072-.976l.073-.084-.073.084Z" />
+            </svg>
+        </button>
+    }
+</div>
+
+@code {
+    #region Private fields
+
+    private string? _value;
+
+    #endregion
+
+    #region Parameters
+
+    [Parameter(CaptureUnmatchedValues = true)]
+    public Dictionary<string, object>? Attributes { get; set; }
+
+    [Parameter]
+    public string? Value { get; set; }
+
+    [Parameter]
+    public EventCallback<string?> ValueChanged { get; set; }
+
+    [Parameter]
+    public EventCallback<string?> OnInput { get; set; }
+
+    #endregion
+
+    #region Lifecycle methods
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        _value = Value;
+    }
+
+    #endregion
+
+    private string Placeholder => Attributes?.TryGetValue("placeholder", out var placeholder) == true ? placeholder?.ToString() ?? "" : "";
+
+    private async Task HandleInput(ChangeEventArgs eventArgs) => await SetValue(eventArgs.Value?.ToString());
+
+    #region Public methods
+
+    public async Task SetValue(string? value)
+    {
+        _value = value;
+        await ValueChanged.InvokeAsync(_value);
+        await OnInput.InvokeAsync(_value);
+    }
+
+    #endregion
+}

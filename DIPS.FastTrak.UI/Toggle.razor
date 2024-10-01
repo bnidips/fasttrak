@@ -1,0 +1,35 @@
+<div class="ToggleContainer @GetContainerCssClass()">
+    <button class="@GetCssClass()" @onclick="HandleOnClick">
+        <div></div>
+    </button>
+    @ChildContent
+</div>
+
+@code {
+    private bool _isChecked;
+
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+
+    [Parameter]
+    public bool IsChecked { get; set; }
+
+    /// <summary>
+    /// An event that is called on <see cref="IsChecked" /> changed.
+    /// </summary>
+    [Parameter]
+    public EventCallback<bool> IsCheckedChanged { get; set; }
+
+    [Parameter]
+    public bool FlipLayout { get; set; }
+
+    private async Task HandleOnClick()
+    {
+        _isChecked = !_isChecked;
+        await IsCheckedChanged.InvokeAsync(_isChecked);
+    }
+
+    private string GetContainerCssClass() => FlipLayout ? " FlipLayout" : "";
+
+    private string GetCssClass() => "Toggle" + (_isChecked ? " IsChecked" : "");
+}

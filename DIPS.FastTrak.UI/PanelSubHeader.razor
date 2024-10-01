@@ -1,0 +1,13 @@
+@inherits SubPanel
+
+<SubPanel>
+    <span>@ChildContent</span>
+</SubPanel>
+
+@code {
+    #region Overriden Methods
+
+    protected override string GetCssClass() => "PanelSubHeader";
+
+    #endregion
+}

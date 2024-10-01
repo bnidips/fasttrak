@@ -1,0 +1,5 @@
+.ToolDivider {
+    background: var(--neutralLight);
+    margin: var(--borderRadius);
+    width: 1px;
+}

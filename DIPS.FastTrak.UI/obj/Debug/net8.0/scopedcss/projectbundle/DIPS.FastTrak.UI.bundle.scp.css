@@ -1,0 +1,433 @@
+/* _content/DIPS.FastTrak.UI/Avatar.razor.rz.scp.css */
+.Avatar[b-6xdvx25pse] {
+    align-items: center;
+    background: var(--neutralLight);
+    border-radius: 20px;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    width: 40px;
+}
+
+.Avatar svg[b-6xdvx25pse] {
+    display: block;
+    fill: var(--text);
+}
+/* _content/DIPS.FastTrak.UI/ClinFormTitle.razor.rz.scp.css */
+.ClinFormTitle[b-x7ytjupthr] {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    height: 28px;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+/* _content/DIPS.FastTrak.UI/DropButton.razor.rz.scp.css */
+.DropButton[b-9i7cm87tro] {
+    align-items: center;
+    background: none;
+    border: 0;
+    border-radius: var(--borderRadius);
+    color: var(--text);
+    cursor: pointer;
+    display: flex;
+    gap: var(--borderRadius);
+    height: 28px;
+    padding: 0 var(--borderRadius);
+}
+
+    .DropButton.PillShape[b-9i7cm87tro] {
+        border-radius: 14px;
+        padding: 0 var(--borderRadiusLarge);
+    }
+
+    .DropButton:hover[b-9i7cm87tro] {
+        background: var(--secondaryPrimary);
+    }
+
+.Content[b-9i7cm87tro] {
+    align-items: center;
+    display: flex;
+    gap: var(--borderRadius);
+}
+/* _content/DIPS.FastTrak.UI/ListBox.razor.rz.scp.css */
+.ListBox[b-nqobr4kfw9] {
+    display: flex;
+    flex-direction: column;
+}
+
+.Item[b-nqobr4kfw9] {
+    background: inherit;
+    border: 0;
+    border-radius: var(--borderRadiusSmall);
+    color: var(--text);
+    display: flex;
+    min-height: 16px;
+    outline: none;
+    padding: var(--borderRadius);
+}
+
+    .Item:hover[b-nqobr4kfw9] {
+        background: var(--secondarySurface);
+    }
+
+    .Item.IsSelected[b-nqobr4kfw9] {
+        background: var(--primary);
+        color: var(--primaryInverted);
+    }
+/* _content/DIPS.FastTrak.UI/MenuOption.razor.rz.scp.css */
+.MenuOption[b-jcec9phc3u] {
+    align-items: center;
+    background: none;
+    border: 0;
+    display: flex;
+}
+/* _content/DIPS.FastTrak.UI/PageControl.razor.rz.scp.css */
+.PageControl[b-0wf5wydbkf] {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+    .PageControl .Tabs[b-0wf5wydbkf] {
+        background: var(--secondarySurface);
+        display: flex;   
+        gap: var(--borderRadiusSmall);
+    }
+
+    .PageControl .Tab[b-0wf5wydbkf] {
+        align-items: center;
+        color: var(--text);
+        cursor: pointer;
+        display: flex;
+        gap: var(--borderRadiusSmall);
+        padding: 7px;
+        border-radius: 0 0 5px 5px;
+    }
+
+        .PageControl .Tab.IsActive[b-0wf5wydbkf] {
+            background: var(--surface);
+        }
+
+    .PageControl .Tab:hover:not(.IsActive)[b-0wf5wydbkf] {
+        background: var(--neutralLight);
+    }
+/* _content/DIPS.FastTrak.UI/PageSheet.razor.rz.scp.css */
+.PageSheet[b-9umhkp5t4z] {
+    flex: 1;
+    padding: var(--borderRadius);
+}
+/* _content/DIPS.FastTrak.UI/Panel.razor.rz.scp.css */
+.Panel[b-j8mt9n58ps] {
+    background: var(--surface);
+    border-radius: var(--borderRadius);
+}
+/* _content/DIPS.FastTrak.UI/PanelHeader.razor.rz.scp.css */
+.PanelHeader[b-s1wc2re29x] {
+    align-items: center;
+    font-family: 'Circular Std Medium';
+    font-size: 18px;
+    color: var(--text);
+    display: flex;
+    gap: 10px;
+    height: 44px;
+    padding: 10px;
+    user-select: none;
+}
+
+    .PanelHeader.Separator[b-s1wc2re29x] {
+        border-bottom: 1px solid var(--secondarySurface);
+    }
+
+    .PanelHeader button[b-s1wc2re29x] {
+        align-items: center;
+        background: none;
+        border: 0;
+        border-radius: var(--borderRadiusSmall);
+        display: flex;
+        flex-shrink: 0;
+        height: 24px;
+        justify-content: center;
+        width: 24px;
+    }
+
+    .PanelHeader button:hover[b-s1wc2re29x] {
+        background: var(--neutralLight);
+        cursor: pointer;
+    }
+
+.Stripes rect[b-s1wc2re29x] {
+    fill: var(--stripesFill);
+}
+/* _content/DIPS.FastTrak.UI/PanelSubHeader.razor.rz.scp.css */
+.PanelSubHeader[b-mt0ixoi50t] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+/* _content/DIPS.FastTrak.UI/PanelTextBox.razor.rz.scp.css */
+.PanelTextBox[b-2ibc3f8wsr] {
+    background: var(--neutralLight);
+    display: flex;
+    height: 24px;
+    border-radius: 12px;
+    border: 0;
+    outline: none;
+    padding: 0 0 0 10px;
+}
+
+.PanelTextBox > input[b-2ibc3f8wsr] {
+    background: none;
+    border: 0;
+    color: var(--text);
+    flex: 1;
+    outline: 0;
+}
+
+.PanelTextBox > button[b-2ibc3f8wsr] {
+    align-items: center;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    height: 24px;
+    justify-content: center;
+    min-width: 24px;
+    width: 24px;
+}
+
+    .PanelTextBox svg[b-2ibc3f8wsr] {
+        fill: var(--text);
+        min-height: 16px;
+        min-width: 16px;
+    }
+
+    .PanelTextBox > button:hover[b-2ibc3f8wsr] {
+/*        background: var(--secondaryPrimary);
+*/    }
+/* _content/DIPS.FastTrak.UI/PopupMenu.razor.rz.scp.css */
+.PopupMenu[b-rukmfz1meq] {
+    position: relative;
+}
+
+.MenuOptions[b-rukmfz1meq] {
+    position: absolute;
+}
+/* _content/DIPS.FastTrak.UI/RoundButton.razor.rz.scp.css */
+.RoundButton[b-r4qvp6usje] {
+    align-items: center;
+    background: none;
+    border: 0;
+    border-radius: 14px;
+    color: var(--text);
+    cursor: pointer;
+    display: flex;
+    height: 28px;
+    justify-content: center;
+    width: 28px;
+}
+
+    .RoundButton:hover[b-r4qvp6usje] {
+        background: var(--secondaryPrimary);
+    }
+
+        .RoundButton:hover:active[b-r4qvp6usje] {
+            mix-blend-mode: var(--blendMode);
+        }
+/* _content/DIPS.FastTrak.UI/SearchBar.razor.rz.scp.css */
+.SearchBar[b-nkylzkqkae] {
+    background: var(--neutralLight);
+    border: 0;
+    border-radius: 16px;
+    display: flex;
+    height: 32px;
+    justify-content: flex-start;
+    outline: none;
+    padding: 0 0 0 12px;
+    position: relative;
+    width: 320px;
+}
+
+    .SearchBar > input[b-nkylzkqkae] {
+        background: none;
+        border: 0;
+        color: var(--text);
+        flex: 1;
+        outline: none;
+    }
+
+    .SearchBar > button[b-nkylzkqkae] {
+        background: none;
+        border: 0;
+        border-radius: 16px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        outline: none;
+        padding: 0;
+        width: 32px;
+    }
+
+        .SearchBar > button > svg[b-nkylzkqkae] {
+            fill: var(--text);
+        }
+
+        .SearchBar > button:hover[b-nkylzkqkae] {
+            background: var(--secondaryPrimary);
+        }
+
+        .SearchBar > button:hover > svg[b-nkylzkqkae] {
+            fill: #fff;
+        }
+
+.SearchResults[b-nkylzkqkae] {
+    background: #0A0D30;
+    border-radius: var(--borderRadiusLarge);
+    color: var(--primaryInverted);
+    display: flex;
+    flex-direction: column;
+    padding: var(--borderRadiusLarge);
+    position: absolute;
+    top: 100%;
+    left: -5%;
+    width: 110%;
+    z-index: 1000;
+}
+
+    .SearchResult[b-nkylzkqkae] {
+        align-items: center;
+        border-radius: var(--borderRadius);
+        cursor: pointer;
+        display: flex;
+        gap: var(--borderRadius);
+        height: 36px;
+        padding: 0 0 0 10px;
+    }
+
+        .SearchResult:hover[b-nkylzkqkae] {
+            background: var(--primary);
+            mix-blend-mode: screen;
+        }
+/* _content/DIPS.FastTrak.UI/Splitter.razor.rz.scp.css */
+.Splitter[b-u3je4nwypn] {
+    height: 10px;
+}
+/* _content/DIPS.FastTrak.UI/SubPanel.razor.rz.scp.css */
+.SubPanel[b-flv2mzo75k] {
+    padding: 5px;
+    display: flex;
+}
+
+.SubPanel.Separator[b-flv2mzo75k] {
+    border-bottom: 1px solid var(--secondarySurface);
+}
+/* _content/DIPS.FastTrak.UI/Toggle.razor.rz.scp.css */
+.ToggleContainer[b-0ofqrcbqc1] {
+    align-items: center;
+    display: flex;
+    gap: var(--borderRadius);
+    flex-direction: row;
+}
+
+    .ToggleContainer.FlipLayout[b-0ofqrcbqc1] {
+        flex-direction: row-reverse;
+    }
+
+    .Toggle[b-0ofqrcbqc1] {
+        align-items: center;
+        background: var(--neutralLight);
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        display: flex;
+        justify-content: flex-start;
+        height: 16px;
+        outline: none;
+        padding: 2px;
+        transition: all 0.1s ease 0s;
+        width: 30px;
+    }
+
+    .Toggle.IsChecked[b-0ofqrcbqc1] {
+        background: var(--primary);
+        justify-content: flex-end;
+    }
+
+.Toggle > div[b-0ofqrcbqc1] {
+    background: var(--text);
+    border-radius: 6px;
+    height: 12px;
+    width: 12px;
+}
+
+    .Toggle.IsChecked > div[b-0ofqrcbqc1] {
+        background: var(--primaryInverted);
+    }
+/* _content/DIPS.FastTrak.UI/Toolbar.razor.rz.scp.css */
+.Toolbar[b-p8fn2l7kx8] {
+    background: var(--surface);
+    border-radius: var(--borderRadius);
+    display: flex;
+    padding: var(--borderRadius);
+}
+/* _content/DIPS.FastTrak.UI/ToolButton.razor.rz.scp.css */
+.ToolButton[b-nh4mlca8q9] {
+    align-items: stretch;
+    background: inherit;
+    border: 0;
+    border-radius: var(--borderRadius);
+    cursor: pointer;
+    display: flex;
+    min-height: 48px;
+    min-width: 48px;
+    outline: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+.ToolButton:disabled[b-nh4mlca8q9] {
+    cursor: default;
+    opacity: .5;
+}
+
+.Content[b-nh4mlca8q9] {
+    align-items: center;
+    color: var(--text);
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
+    min-width: 48px;
+    padding: var(--borderRadius);
+}
+
+.PopupButton[b-nh4mlca8q9] {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: clip;
+    width: 16px;
+}
+
+    .PopupButton:hover[b-nh4mlca8q9] {
+        background: inherit;
+        mix-blend-mode: var(--blendMode);
+    }
+
+.ToolButton svg[b-nh4mlca8q9] {
+    mix-blend-mode: unset;
+    display: block;
+    fill: var(--text);
+}
+
+.ToolButton:hover:not(:disabled)[b-nh4mlca8q9] {
+    background: var(--secondaryPrimary);
+}
+/* _content/DIPS.FastTrak.UI/ToolDivider.razor.rz.scp.css */
+.ToolDivider[b-6u8lez26ea] {
+    background: var(--neutralLight);
+    margin: var(--borderRadius);
+    width: 1px;
+}

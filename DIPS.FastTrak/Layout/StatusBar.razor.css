@@ -1,0 +1,8 @@
+﻿.StatusBar {
+    align-items: center;
+    background: var(--surface);
+    color: var(--text);
+    display: flex;
+    height: 40px;
+    padding: 0 var(--borderRadiusLarge);
+}

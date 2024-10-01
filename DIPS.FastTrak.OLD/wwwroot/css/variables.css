@@ -1,0 +1,36 @@
+﻿:root {
+    /** spacing */
+    --spacing-horz-s: 4px;
+    --spacing-vert-s: 2px;
+    --themeLighter: #2B40A4;
+
+    /** Selection background color if is
+        not focused */
+    --selectionCursorHover: pointer;
+    --selectionBackground: #fafafa;     
+    --selectionBackgroundHover: #fafafa;
+
+    --selection-background-focus: #2b40a4;
+
+    --selection-color: #fff;
+    --selection-color-focus: #fff;
+
+    --selection-height: 30px;
+    --selection-color: #000;
+    --selection-border-radius: 3px;
+
+    --grid-cell-padding: 6px 8px;
+
+    /** toolButton */
+    --toolButton: #efefef;
+    --toolButtonActive: #b5e4d6;
+    --toolButtonChecked: #b5e4d6;
+
+    /** toolButtonBorder */
+    --toolButtonBorderRadius: 5px;
+    --toolButtonBorder: 0;
+    --toolButtonBorderActiveColor: transparent;
+    --toolButtonBorderCheckedColor: transparent;
+
+    --headerSplitterBorderColor: var(--toolButtonActive);
+}

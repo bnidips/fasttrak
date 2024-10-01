@@ -1,0 +1,30 @@
+﻿.TabsBar {
+    background: var(--surface);
+    display: flex;
+    height: 40px;
+    padding: 0 20px;
+}
+
+    .TabsBar aside {
+        align-items: center;
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+    }
+
+    .TabsBar .Tab {
+        background: none;
+        border: 0;
+        color: var(--text);
+        cursor: pointer;
+        font-size: 16px;
+        padding: 0 10px;
+    }
+
+    .TabsBar .Tab:hover:not(.IsActive)  {
+        background: var(--secondaryPrimary);
+    }
+
+        .TabsBar .Tab.IsActive {
+            background: var(--secondarySurface);
+        }
