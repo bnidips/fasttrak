@@ -622,6 +622,7 @@ C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\DIPS.FastTrak.AssemblyInfoIn
 C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\DIPS.FastTrak.AssemblyInfo.cs
 C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\DIPS.FastTrak.csproj.CoreCompileInputs.cache
 C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\DIPS.FastTrak.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\DIPS.FastTrak.sourcelink.json
 C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Authorization.wasm
 C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.wasm
 C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.Forms.wasm
@@ -824,6 +825,8 @@ C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\staticwebassets\msbuild.buil
 C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.DIPS.FastTrak.props
 C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DIPS.FastTrak.props
 C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\scopedcss\Layout\StatusBar.razor.rz.scp.css
+C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\scopedcss\Layout\TabsBar.razor.rz.scp.css
 C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\scopedcss\Layout\TitleBar.razor.rz.scp.css
 C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\scopedcss\bundle\DIPS.FastTrak.styles.css
 C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\scopedcss\projectbundle\DIPS.FastTrak.bundle.scp.css
@@ -1038,5 +1041,3 @@ C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\DIPS.FastTrak.dll
 C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\refint\DIPS.FastTrak.dll
 C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\DIPS.FastTrak.pdb
 C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\ref\DIPS.FastTrak.dll
-C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\scopedcss\Layout\TabsBar.razor.rz.scp.css
-C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\scopedcss\Layout\StatusBar.razor.rz.scp.css

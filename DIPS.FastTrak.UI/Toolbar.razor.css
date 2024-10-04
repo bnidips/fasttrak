@@ -4,3 +4,7 @@
     display: flex;
     padding: var(--borderRadius);
 }
+
+    .Toolbar.Separator {
+        border-bottom: 1px solid var(--secondarySurface);
+    }

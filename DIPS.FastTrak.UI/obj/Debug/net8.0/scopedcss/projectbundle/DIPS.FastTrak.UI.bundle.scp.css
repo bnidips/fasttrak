@@ -45,6 +45,11 @@
         background: var(--secondaryPrimary);
     }
 
+    .DropButton:active[b-9i7cm87tro] {
+        background: var(--secondaryPrimary);
+        mix-blend-mode: var(--blendMode);
+    }
+
 .Content[b-9i7cm87tro] {
     align-items: center;
     display: flex;
@@ -62,7 +67,7 @@
     border-radius: var(--borderRadiusSmall);
     color: var(--text);
     display: flex;
-    min-height: 16px;
+    min-height: 24px;
     outline: none;
     padding: var(--borderRadius);
 }
@@ -115,7 +120,6 @@
 /* _content/DIPS.FastTrak.UI/PageSheet.razor.rz.scp.css */
 .PageSheet[b-9umhkp5t4z] {
     flex: 1;
-    padding: var(--borderRadius);
 }
 /* _content/DIPS.FastTrak.UI/Panel.razor.rz.scp.css */
 .Panel[b-j8mt9n58ps] {
@@ -161,6 +165,7 @@
 }
 /* _content/DIPS.FastTrak.UI/PanelSubHeader.razor.rz.scp.css */
 .PanelSubHeader[b-mt0ixoi50t] {
+    color: var(--text);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -171,6 +176,7 @@
     background: var(--neutralLight);
     display: flex;
     height: 24px;
+    min-height: 24px;
     border-radius: 12px;
     border: 0;
     outline: none;
@@ -206,6 +212,36 @@
     .PanelTextBox > button:hover[b-2ibc3f8wsr] {
 /*        background: var(--secondaryPrimary);
 */    }
+/* _content/DIPS.FastTrak.UI/PopupList.razor.rz.scp.css */
+.PopupList[b-fnvejlthrx] {
+    background: var(--surface);
+    border-radius: var(--borderRadius);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px 0px;
+    overflow: clip;
+    padding: var(--borderRadius);
+    position: absolute;
+    right: 10px;
+    min-width: 160px;
+    z-index: 2400;
+}
+
+    .PopupList button[b-fnvejlthrx] {
+        align-items: flex-start;
+        border: 0;
+        background: none;
+        color: var(--text);
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: var(--borderRadiusLarge);
+        min-height: 24px;
+    }
+
+    .PopupList button:hover[b-fnvejlthrx] {
+        color: var(--primaryInverted);
+        background: var(--primary);
+        border-radius: var(--borderRadius);
+    }
 /* _content/DIPS.FastTrak.UI/PopupMenu.razor.rz.scp.css */
 .PopupMenu[b-rukmfz1meq] {
     position: relative;
@@ -228,13 +264,17 @@
     width: 28px;
 }
 
-    .RoundButton:hover[b-r4qvp6usje] {
+    .RoundButton.IsOpen[b-r4qvp6usje] {
+        background: #79CEB5;
+    }
+
+    .RoundButton:hover:not(.IsOpen)[b-r4qvp6usje] {
         background: var(--secondaryPrimary);
     }
 
-        .RoundButton:hover:active[b-r4qvp6usje] {
-            mix-blend-mode: var(--blendMode);
-        }
+    .RoundButton:hover:active[b-r4qvp6usje] {
+        background: #79CEB5;
+    }
 /* _content/DIPS.FastTrak.UI/SearchBar.razor.rz.scp.css */
 .SearchBar[b-nkylzkqkae] {
     background: var(--neutralLight);
@@ -306,9 +346,13 @@
         padding: 0 0 0 10px;
     }
 
-        .SearchResult:hover[b-nkylzkqkae] {
+        .SearchResult:hover:not(.Selected)[b-nkylzkqkae] {
             background: var(--primary);
             mix-blend-mode: screen;
+        }
+
+        .SearchResult.Selected[b-nkylzkqkae] {
+            background: var(--primary);
         }
 /* _content/DIPS.FastTrak.UI/Splitter.razor.rz.scp.css */
 .Splitter[b-u3je4nwypn] {
@@ -316,13 +360,18 @@
 }
 /* _content/DIPS.FastTrak.UI/SubPanel.razor.rz.scp.css */
 .SubPanel[b-flv2mzo75k] {
-    padding: 5px;
+    padding: var(--borderRadius);
     display: flex;
+    flex-direction: column;
 }
 
 .SubPanel.Separator[b-flv2mzo75k] {
     border-bottom: 1px solid var(--secondarySurface);
 }
+
+    .SubPanel.TopSeparator[b-flv2mzo75k] {
+        border-top: 1px solid var(--secondarySurface);
+    }
 /* _content/DIPS.FastTrak.UI/Toggle.razor.rz.scp.css */
 .ToggleContainer[b-0ofqrcbqc1] {
     align-items: center;
@@ -372,6 +421,10 @@
     display: flex;
     padding: var(--borderRadius);
 }
+
+    .Toolbar.Separator[b-p8fn2l7kx8] {
+        border-bottom: 1px solid var(--secondarySurface);
+    }
 /* _content/DIPS.FastTrak.UI/ToolButton.razor.rz.scp.css */
 .ToolButton[b-nh4mlca8q9] {
     align-items: stretch;

@@ -9,7 +9,7 @@
 
 @code {
     [CascadingParameter]
-    public PopupMenu? PopupMenu { get; set; }
+    internal IPopupControl? PopupMenu { get; set; }
 
     [Parameter]
     public RenderFragment? ChildContent { get; set; }
@@ -23,7 +23,7 @@
     {
         if (PopupMenu != null)
         {
-            if (PopupMenu.IsOpen)
+            if (PopupMenu.GetIsOpen())
                 await PopupMenu.CloseAsync();
             else
                 await PopupMenu.OpenAsync();

@@ -15,5 +15,6 @@ builder.Services.AddSingleton<IAutorization, OAuth2Service>();
 builder.Services.AddSingleton<IGlobalSearch, GlobalSearch>();
 builder.Services.AddSingleton<IUiService, UiService>();
 builder.Services.AddSingleton<IUserService, UserService>();
+builder.Services.AddSingleton<INotificationsService, NotificationsService>();
 
 await builder.Build().RunAsync();

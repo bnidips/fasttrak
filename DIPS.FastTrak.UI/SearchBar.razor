@@ -1,7 +1,8 @@
 @typeparam T where T : ISearchResult
 
-<div class="SearchBar">
-    <input type="text" @oninput="HandleInput" value="@_value" />
+<div class="SearchBar" tabindex="1">
+    <input type="text" value="@_value"
+           @oninput="HandleInput" @onkeydown="HandleKeyDown" @onkeydown:preventDefault="@preventKey" />
     <button>
         <svg width="16" height="16" fill="none" viewBox="0 0 24 24">
             <path d="M10 2.75a7.25 7.25 0 0 1 5.63 11.819l4.9 4.9a.75.75 0 0 1-.976 1.134l-.084-.073-4.901-4.9A7.25 7.25 0 1 1 10 2.75Zm0 1.5a5.75 5.75 0 1 0 0 11.5 5.75 5.75 0 0 0 0-11.5Z" />
@@ -9,11 +10,12 @@
     </button>
     @if (_isOpen)
     {
-        <div class="SearchResults">
+        <div @ref="_resultsReference" class="SearchResults">
             @if (_list != null && _list.Count > 0)
             {
                 <Virtualize Items="_list">
-                    <div class="SearchResult" @onclick="async () => await HandleResultClick(context)">
+                    <div class="SearchResult @GetResultClass(context)"
+                         @onclick="async () => await HandleResultClick(context)">
                         @ItemTemplate(context)
                     </div>
                 </Virtualize>
@@ -34,6 +36,12 @@
     string _value = "";
 
     IList<T>? _list;
+
+    ElementReference _resultsReference;
+
+    int? _selectedIndex;
+
+    bool preventKey;
 
     /// <summary>
     /// 
@@ -81,6 +89,12 @@
         await IsOpenChanged.InvokeAsync(_isOpen);
     }
 
+    private string GetResultClass(T item)
+    {
+        if (ItemsSource?.IndexOf(item) == _selectedIndex) return "Selected";
+        return "";
+    }
+
     private async Task HandleInput(ChangeEventArgs eventArgs)
     {
         _value = eventArgs.Value?.ToString() ?? "";
@@ -92,7 +106,42 @@
     private async Task HandleResultClick(T result)
     {
         await OnResultClick.InvokeAsync(result);
+        _value = "";
         _isOpen = false;
         StateHasChanged();
+    }
+
+    private async Task HandleKeyDown(KeyboardEventArgs eventArgs)
+    {
+        preventKey = false;
+        if (_list != null)
+        {
+            switch (eventArgs.Key)
+            {
+                case "Enter":
+                    if (_selectedIndex.HasValue)
+                        await HandleResultClick(_list[_selectedIndex.Value]);
+                    break;
+                case "ArrowDown":
+                    _selectedIndex = _selectedIndex.HasValue ? _selectedIndex + 1 : 0;
+                    if (_selectedIndex >= _list.Count) _selectedIndex = _list.Count - 1;
+                    preventKey = true;
+                    await InvokeAsync(StateHasChanged);
+                    break;
+                case "ArrowUp":
+                    _selectedIndex = Math.Max((_selectedIndex ?? _list.Count) - 1, 0);
+                    preventKey = true;
+                    await InvokeAsync(StateHasChanged);
+                    break;
+                case "Home":
+                    _selectedIndex = 0;
+                    await InvokeAsync(StateHasChanged);
+                    break;
+                case "End":
+                    _selectedIndex = _list.Count - 1;
+                    await InvokeAsync(StateHasChanged);
+                    break;
+            }
+        }
     }
 }

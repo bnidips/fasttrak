@@ -1,5 +1,7 @@
 <article class="Panel" @attributes="Attributes">
-    @ChildContent
+    <CascadingValue Value="this">
+        @ChildContent
+    </CascadingValue>
 </article>
 
 @code {

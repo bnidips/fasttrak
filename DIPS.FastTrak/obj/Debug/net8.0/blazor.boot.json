@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "DIPS.FastTrak",
   "resources": {
-    "hash": "sha256-hk/d7yGWwwNS/EJzDv4k/xTNwx9+9IvQhhSrJKf+ZoU=",
+    "hash": "sha256-DaRATu4hev9wdc0AAgON4OEfT45bwz5aP9cJsQejwYc=",
     "jsModuleNative": {
       "dotnet.native.8.0.8.93i67mqfmb.js": "sha256-juC5sA7gHTLXFEhAKgdM2/RavswpwCtDfjYGsAz2FXg="
     },
@@ -208,12 +208,12 @@
       "mscorlib.wasm": "sha256-Gz8PyW2/fwihe5ul81OwmRUrU71r+KtbyRw6xlOGD+Q=",
       "netstandard.wasm": "sha256-jMTqIQzoDS810lyhZpMO5eEC36EzntXqSVn+2qwkOMQ=",
       "System.Private.CoreLib.wasm": "sha256-NFj5WE5VLP2LptZIRJCUIc1AMk06FmxpsSILfPISwAw=",
-      "DIPS.FastTrak.UI.wasm": "sha256-C/3KLTZdx+H8fAzbpClxSqrXlv9JXFviN+yFADtNgCY=",
-      "DIPS.FastTrak.wasm": "sha256-12xqXEw1LqjFJ4n+mcJXDtoqTCJ7dEJEjj59nOvgw0k="
+      "DIPS.FastTrak.UI.wasm": "sha256-BqUkulgo8RtMGjIkjEAuQUBZGrWJvc6SoIArjkYC1tQ=",
+      "DIPS.FastTrak.wasm": "sha256-tWE+GHMLbkhPHh0tK29msx4Uw7IBNwusWAvtSinE/aI="
     },
     "pdb": {
-      "DIPS.FastTrak.UI.pdb": "sha256-DvBGJE9uhvtpz/8YINPGLbHjjao5ZDyB0ZjaI6IMZsw=",
-      "DIPS.FastTrak.pdb": "sha256-SahnrGyaK0nFg2/YoCxihOo04bMmpPcPWf/QYLfamlA="
+      "DIPS.FastTrak.UI.pdb": "sha256-Pl/PvPQzRhaBLCPpVdITH6LFln/v/+K/rnEvvqvhe2A=",
+      "DIPS.FastTrak.pdb": "sha256-76QeINhhXPNiVQrhqb5bQQhrw4Y0x8P5/TWrHmctxHI="
     }
   },
   "cacheBootResources": true,

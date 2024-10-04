@@ -1,4 +1,6 @@
 .TitleBar[b-2qrtj38o6g] {
+    --Sides: 360px;
+
     align-items: center;
     background: var(--surface);
     display: flex;
@@ -8,10 +10,11 @@
     padding: 0 10px;
 }
 
-    .Person[b-2qrtj38o6g] {
-        display: flex;
-        align-items: center;
-    }
+.Person[b-2qrtj38o6g] {
+    display: flex;
+    align-items: center;
+    width: var(--Sides);
+}
 
     .Person h1[b-2qrtj38o6g] {
         color: var(--text);
@@ -22,6 +25,14 @@
     }
 
 .User[b-2qrtj38o6g] {
+    display: flex;
+    justify-content: flex-end;
+    width: var(--Sides);
+    align-items: center;
+    gap: 10px
+}
+
+.UserLocation[b-2qrtj38o6g] {
     display: flex;
 }
 

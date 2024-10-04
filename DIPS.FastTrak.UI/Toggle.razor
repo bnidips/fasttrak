@@ -1,4 +1,4 @@
-<div class="ToggleContainer @GetContainerCssClass()">
+<div class="ToggleContainer @GetContainerCssClass()" @attributes="Attributes">
     <button class="@GetCssClass()" @onclick="HandleOnClick">
         <div></div>
     </button>
@@ -7,6 +7,9 @@
 
 @code {
     private bool _isChecked;
+
+    [Parameter(CaptureUnmatchedValues = true)]
+    public Dictionary<string, object>? Attributes { get; set; }
 
     [Parameter]
     public RenderFragment? ChildContent { get; set; }

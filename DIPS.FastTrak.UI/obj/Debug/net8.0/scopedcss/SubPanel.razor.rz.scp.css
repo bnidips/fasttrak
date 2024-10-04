@@ -1,8 +1,13 @@
 .SubPanel[b-flv2mzo75k] {
-    padding: 5px;
+    padding: var(--borderRadius);
     display: flex;
+    flex-direction: column;
 }
 
 .SubPanel.Separator[b-flv2mzo75k] {
     border-bottom: 1px solid var(--secondarySurface);
 }
+
+    .SubPanel.TopSeparator[b-flv2mzo75k] {
+        border-top: 1px solid var(--secondarySurface);
+    }

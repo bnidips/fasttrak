@@ -68,7 +68,11 @@
         padding: 0 0 0 10px;
     }
 
-        .SearchResult:hover[b-nkylzkqkae] {
+        .SearchResult:hover:not(.Selected)[b-nkylzkqkae] {
             background: var(--primary);
             mix-blend-mode: screen;
+        }
+
+        .SearchResult.Selected[b-nkylzkqkae] {
+            background: var(--primary);
         }

@@ -6,6 +6,7 @@ namespace DIPS.FastTrak.Services
     public interface IUiService : ISearchProvider
     {
         bool DarkMode { get; set; }
+        void ToggleDarkMode();
     }
 
     public class UiService : IUiService, ISearchProvider
@@ -20,9 +21,8 @@ namespace DIPS.FastTrak.Services
         {
             globalSearch.Add(this);
             _options = [
-                new UiOption("Dark Mode", 
-                p => ((IUiService)p).DarkMode = true,
-                this)
+                new UiOption("Toggle Dark Mode", 
+                p => ((IUiService)p).ToggleDarkMode(), this)
             ];
         }
 
@@ -30,7 +30,12 @@ namespace DIPS.FastTrak.Services
 
         public bool DarkMode { get; set; }
 
+
         #endregion
+        public void ToggleDarkMode() => DarkMode = !DarkMode;
+
+
+        public void Execute(ISearchResult result) => result.Action?.Invoke(this);
 
         public async Task<IList<ISearchResult>> SearchAsync(string search)
         {

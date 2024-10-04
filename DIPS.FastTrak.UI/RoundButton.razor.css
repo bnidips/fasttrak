@@ -11,10 +11,14 @@
     width: 28px;
 }
 
-    .RoundButton:hover {
+    .RoundButton.IsOpen {
+        background: #79CEB5;
+    }
+
+    .RoundButton:hover:not(.IsOpen) {
         background: var(--secondaryPrimary);
     }
 
-        .RoundButton:hover:active {
-            mix-blend-mode: var(--blendMode);
-        }
+    .RoundButton:hover:active {
+        background: #79CEB5;
+    }

@@ -14,10 +14,26 @@ namespace DIPS.FastTrak.Services
 
         public List<ClinForm> ClinForms { get; private set; } = [];
 
-        public ClinFormsService()
+        public ClinFormsService(IPopulationsService populationsService)
         {
-            ClinForms.Add(new ClinForm(new MetaForm(1307, "DIAPOL_INSULIN", "Insulinbehandling"), clinFormId: 12));
-            ClinForms.Add(new ClinForm(new MetaForm(1430, "DIAPOL_MAIN", "Poliklinisk kontroll diabetes"), clinFormId: 16));
+            populationsService.ActiveStudyCaseChanged += OnActiveCaseChanged;
+        }
+
+        private void OnActiveCaseChanged(StudyCase? studyCase)
+        {
+            ClinForms.Clear();
+            if (studyCase != null)
+            {
+                if (studyCase.PersonId == 1)
+                {
+                    ClinForms.Add(new ClinForm(new MetaForm(1307, "DIAPOL_INSULIN", "Insulinbehandling"), clinFormId: 12));
+                    ClinForms.Add(new ClinForm(new MetaForm(1430, "DIAPOL_MAIN", "Poliklinisk kontroll diabetes"), clinFormId: 16));
+                }
+                else
+                {
+                    ClinForms.Add(new ClinForm(new MetaForm(1430, "DIAPOL_MAIN", "Poliklinisk kontroll diabetes"), clinFormId: 16));
+                }
+            }
         }
     }
 }

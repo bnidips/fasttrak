@@ -2,6 +2,7 @@
 @inject IUserService UserService
 @inject IPopulationsService Population
 @inject IUserService UserService
+@inject INotificationsService Notifications
 
 <header class="TitleBar">
     <section class="Person">
@@ -23,8 +24,8 @@
         </ItemTemplate>
     </SearchBar>
 
-    <section style="display: flex; align-items: center; gap: 10px">
-        <section class="User">
+    <section class="User">
+        <section class="UserLocation">
             <DropButton PillShape="true">
                 <svg width="16" height="16" viewBox="0 0 24 24">
                     <path d="M8.5 5.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2ZM7.5 13.5a1 1 0 1 1 2 0 1 1 0 0 1-2 0ZM8.5 9a1 1 0 1 0 0 2 1 1 0 0 0 0-2ZM11 6.5a1 1 0 1 1 2 0 1 1 0 0 1-2 0ZM12 12.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2ZM14.5 13.5a1 1 0 1 1 2 0 1 1 0 0 1-2 0ZM12 9a1 1 0 1 0 0 2 1 1 0 0 0 0-2Z" />
@@ -43,10 +44,11 @@
         </section>
 
         <section class="Alerts">
-            <PopupMenu>
-                <MenuOptions>
-                    <MenuOption Text="Alert 1" />
-                </MenuOptions>
+            <PopupList T="Notification" ItemsSource="Notifications.Notifications" style="min-width: 260px">
+                <ItemTemplate>
+                    <h2 class="notification-title">@context.Title</h2>
+                    <span class="notification-date">@context.CreatedAt</span>
+                </ItemTemplate>
                 <ChildContent>
                     <RoundButton>
                         <svg width="24" height="24" viewBox="0 0 24 24">
@@ -54,7 +56,7 @@
                         </svg>
                     </RoundButton>
                 </ChildContent>
-            </PopupMenu>
+            </PopupList>
         </section>
 
         <section class="Logo">
@@ -69,7 +71,7 @@
 
     private async Task HandleResultClick(ISearchResult result)
     {
-        GlobalSearch.Invoke(result);
+        GlobalSearch.InvokeAsync(result);
         await InvokeAsync(StateHasChanged);
     }
 }

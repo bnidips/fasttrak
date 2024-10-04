@@ -11,10 +11,14 @@
     width: 28px;
 }
 
-    .RoundButton:hover[b-r4qvp6usje] {
+    .RoundButton.IsOpen[b-r4qvp6usje] {
+        background: #79CEB5;
+    }
+
+    .RoundButton:hover:not(.IsOpen)[b-r4qvp6usje] {
         background: var(--secondaryPrimary);
     }
 
-        .RoundButton:hover:active[b-r4qvp6usje] {
-            mix-blend-mode: var(--blendMode);
-        }
+    .RoundButton:hover:active[b-r4qvp6usje] {
+        background: #79CEB5;
+    }

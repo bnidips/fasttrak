@@ -1,4 +1,4 @@
-<button class="RoundButton" @onclick="OnClick">
+<button class="RoundButton @GetCssClass()" @onclick="HandleClick" @attributes="Attributes">
     @ChildContent
 </button>
 
@@ -9,6 +9,12 @@
         Alert
     }
 
+    [CascadingParameter]
+    internal IPopupControl? PopupControl { get; set; }
+
+    [Parameter(CaptureUnmatchedValues = true)]
+    public Dictionary<string, object>? Attributes { get; set; }
+
     [Parameter]
     public RenderFragment? ChildContent { get; set; }
 
@@ -17,4 +23,18 @@
 
     [Parameter]
     public EventCallback OnClick { get; set; }
+
+    private string GetCssClass() => PopupControl?.GetIsOpen() == true ? "IsOpen" : "";
+
+    private async Task HandleClick(MouseEventArgs e)
+    {
+        if (PopupControl != null)
+        {
+            if (PopupControl.GetIsOpen())
+                await PopupControl.CloseAsync();
+            else
+                await PopupControl.OpenAsync();
+        }
+        await OnClick.InvokeAsync();
+    }
 }

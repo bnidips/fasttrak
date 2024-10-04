@@ -1,24 +1,38 @@
 @implements IPopupControl
+@typeparam T
+
 <CascadingValue Value="this">
-    <div class="PopupMenu">
-        @ChildContent
-        @if (_isOpen)
-        {
-            <div class="MenuOptions">
-                @MenuOptions
-            </div>
-        }
-    </div>
+    @ChildContent
 </CascadingValue>
+@if (ItemsSource != null && _isOpen)
+{
+    <div class="PopupList" @attributes="Attributes">
+        <Virtualize Items="ItemsSource">
+            <button @onclick="HandleItemClick">
+                @ItemTemplate(context)
+            </button>
+        </Virtualize>
+        @Footer
+    </div>
+}
 
 @code {
     bool _isOpen;
+
+    [Parameter(CaptureUnmatchedValues = true)]
+    public Dictionary<string, object>? Attributes { get; set; }
 
     [Parameter]
     public RenderFragment? ChildContent { get; set; }
 
     [Parameter]
-    public RenderFragment? MenuOptions { get; set; }
+    public RenderFragment? Footer { get; set; }
+
+    [Parameter]
+    public IList<T>? ItemsSource { get; set; }
+
+    [Parameter]
+    public RenderFragment<T> ItemTemplate { get; set; } = context => @<span>@context</span>;
 
     [Parameter]
     public bool IsOpen { get; set; }
@@ -32,13 +46,15 @@
         _isOpen = IsOpen;
     }
 
+    private async Task HandleItemClick() => await CloseAsync();
+
+    public bool GetIsOpen() => _isOpen;
+
     public async Task CloseAsync()
     {
         _isOpen = false;
         await UpdateOpen();
     }
-
-    public bool GetIsOpen() => _isOpen;
 
     public async Task OpenAsync()
     {
@@ -52,4 +68,3 @@
         await InvokeAsync(StateHasChanged);
     }
 }
-

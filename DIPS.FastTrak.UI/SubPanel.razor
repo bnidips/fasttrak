@@ -14,7 +14,10 @@
     [Parameter]
     public bool Separator { get; set; } = true;
 
+    [Parameter]
+    public bool TopSeparator { get; set; } = false;
+
     #endregion
 
-    protected virtual string GetCssClass() => Separator ? "Separator" : "";
+    protected virtual string GetCssClass() => Separator ? (TopSeparator ? "TopSeparator": "Separator") : "";
 }

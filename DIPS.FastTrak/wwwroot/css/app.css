@@ -112,3 +112,13 @@ main {
 .StudyGroup {
     text-align: right;
 }
+
+.notification-title {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0 0 var(--borderRadius) 0;
+}
+
+.notification-date {
+    color: gray;
+}

@@ -68,7 +68,11 @@
         padding: 0 0 0 10px;
     }
 
-        .SearchResult:hover {
+        .SearchResult:hover:not(.Selected) {
             background: var(--primary);
             mix-blend-mode: screen;
+        }
+
+        .SearchResult.Selected {
+            background: var(--primary);
         }

@@ -1,0 +1,29 @@
+.PopupList {
+    background: var(--surface);
+    border-radius: var(--borderRadius);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px 0px;
+    overflow: clip;
+    padding: var(--borderRadius);
+    position: absolute;
+    right: 10px;
+    min-width: 160px;
+    z-index: 2400;
+}
+
+    .PopupList button {
+        align-items: flex-start;
+        border: 0;
+        background: none;
+        color: var(--text);
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: var(--borderRadiusLarge);
+        min-height: 24px;
+    }
+
+    .PopupList button:hover {
+        color: var(--primaryInverted);
+        background: var(--primary);
+        border-radius: var(--borderRadius);
+    }

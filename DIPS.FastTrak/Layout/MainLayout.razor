@@ -26,4 +26,15 @@ else
         await GlobalSearch.SearchAsync(search);
         StateHasChanged();
     }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        GlobalSearch.Executed += OnExecuted;
+    }
+
+    private void OnExecuted()
+    {
+        StateHasChanged();
+    }
 }

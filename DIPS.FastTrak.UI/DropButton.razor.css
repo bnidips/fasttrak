@@ -20,6 +20,11 @@
         background: var(--secondaryPrimary);
     }
 
+    .DropButton:active {
+        background: var(--secondaryPrimary);
+        mix-blend-mode: var(--blendMode);
+    }
+
 .Content {
     align-items: center;
     display: flex;

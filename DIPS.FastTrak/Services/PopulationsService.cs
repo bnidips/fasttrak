@@ -1,5 +1,6 @@
 ﻿using DIPS.FastTrak.Models;
 using DIPS.FastTrak.UI;
+using Microsoft.AspNetCore.Components;
 
 namespace DIPS.FastTrak.Services;
 
@@ -22,20 +23,23 @@ public class PopulationsService : IPopulationsService, ISearchProvider
 
     string _studyCasesFilter = "";
 
+    NavigationManager _navigation;
+
     readonly IList<StudyCase> _allStudyCases;
 
     public event StudyCaseDelegate? ActiveStudyCaseChanged;
 
     #endregion
 
-    public PopulationsService(IGlobalSearch search)
+    public PopulationsService(IGlobalSearch search, NavigationManager navigation)
     {
         search.Add(this);
+        _navigation = navigation;
         _allStudyCases = [
             new StudyCase(this) { PersonId = 3, FirstName = "Dina", LastName = "Ekeberg" },
-            new StudyCase(this){ PersonId = 1, FirstName = "Line", LastName = "Danser" },
-            new StudyCase(this){ PersonId = 4, FirstName = "Gry", LastName = "Telok" },
-            new StudyCase(this){ PersonId = 6, FirstName = "Roland", LastName = "Gundersen" }
+            new StudyCase(this) { PersonId = 1, FirstName = "Line", LastName = "Danser" },
+            new StudyCase(this) { PersonId = 2, FirstName = "Gry", LastName = "Telok" },
+            new StudyCase(this) { PersonId = 4, FirstName = "Roland", LastName = "Gundersen" }
         ];
         ActivePopulation = [.. _allStudyCases];
     }
@@ -63,6 +67,12 @@ public class PopulationsService : IPopulationsService, ISearchProvider
             _studyCasesFilter = value;
             ActivePopulation = FilterStudyCases(_allStudyCases, _studyCasesFilter);
         }
+    }
+
+    public void Execute(ISearchResult result)
+    {
+        ActiveStudyCase = (StudyCase)result;
+        _navigation.NavigateTo("PatientJournal");
     }
 
     public IList<StudyCase> FilterStudyCases(IList<StudyCase> studyCases, string filter)
