@@ -265,7 +265,7 @@
 }
 
     .RoundButton.IsOpen[b-r4qvp6usje] {
-        background: #79CEB5;
+        background: var(--secondaryPrimaryDarker);
     }
 
     .RoundButton:hover:not(.IsOpen)[b-r4qvp6usje] {
@@ -273,7 +273,7 @@
     }
 
     .RoundButton:hover:active[b-r4qvp6usje] {
-        background: #79CEB5;
+        background: var(--secondaryPrimaryDarker);
     }
 /* _content/DIPS.FastTrak.UI/SearchBar.razor.rz.scp.css */
 .SearchBar[b-nkylzkqkae] {
@@ -477,6 +477,10 @@
 
 .ToolButton:hover:not(:disabled)[b-nh4mlca8q9] {
     background: var(--secondaryPrimary);
+}
+
+.ToolButton:active:not(:disabled)[b-nh4mlca8q9] {
+    background: var(--secondaryPrimaryDarker);
 }
 /* _content/DIPS.FastTrak.UI/ToolDivider.razor.rz.scp.css */
 .ToolDivider[b-6u8lez26ea] {

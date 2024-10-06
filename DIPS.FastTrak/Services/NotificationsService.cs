@@ -9,6 +9,9 @@ namespace DIPS.FastTrak.Services
 
     public class NotificationsService : INotificationsService
     {
-        public List<Notification> Notifications => [new Notification { Title = "Notat sendt til Arena", CreatedAt = DateTime.Now.AddHours(-1) }];
+        public List<Notification> Notifications => [
+            new Notification { Title = "Notat sendt til Arena", CreatedAt = DateTime.Now.AddHours(-1) },
+            new Notification { Title = "LabData oppdatert", CreatedAt = DateTime.Now.AddHours(-4) }
+        ];
     }
 }

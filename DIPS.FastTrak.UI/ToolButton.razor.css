@@ -50,3 +50,7 @@
 .ToolButton:hover:not(:disabled) {
     background: var(--secondaryPrimary);
 }
+
+.ToolButton:active:not(:disabled) {
+    background: var(--secondaryPrimaryDarker);
+}

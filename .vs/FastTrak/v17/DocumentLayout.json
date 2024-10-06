@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "C:\\Projects\\FastTrak\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\layout\\titlebar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\layout\\titlebar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|c:\\projects\\fasttrak\\dips.fasttrak.ui\\toolbutton.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|solutionrelative:dips.fasttrak.ui\\toolbutton.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|c:\\projects\\fasttrak\\dips.fasttrak.ui\\popuplist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|solutionrelative:dips.fasttrak.ui\\popuplist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\wwwroot\\css\\themes\\dark.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\wwwroot\\css\\themes\\dark.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|c:\\projects\\fasttrak\\dips.fasttrak.ui\\panel.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|solutionrelative:dips.fasttrak.ui\\panel.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\services\\notificationsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\services\\notificationsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|c:\\projects\\fasttrak\\dips.fasttrak.ui\\roundbutton.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|solutionrelative:dips.fasttrak.ui\\roundbutton.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|c:\\projects\\fasttrak\\dips.fasttrak.ui\\popuplist.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|solutionrelative:dips.fasttrak.ui\\popuplist.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|c:\\projects\\fasttrak\\dips.fasttrak.ui\\roundbutton.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|solutionrelative:dips.fasttrak.ui\\roundbutton.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\wwwroot\\css\\themes\\light.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\wwwroot\\css\\themes\\light.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|c:\\projects\\fasttrak\\dips.fasttrak.ui\\popuplist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|solutionrelative:dips.fasttrak.ui\\popuplist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\layout\\titlebar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\layout\\titlebar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|c:\\projects\\fasttrak\\dips.fasttrak.ui\\panel.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|solutionrelative:dips.fasttrak.ui\\panel.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|c:\\projects\\fasttrak\\dips.fasttrak.ui\\roundbutton.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -45,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\services\\notificationsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\services\\notificationsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -153,7 +165,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -161,20 +173,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "ToolButton.razor.css",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\ToolButton.razor.css",
+              "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\ToolButton.razor.css",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\ToolButton.razor.css",
+              "RelativeToolTip": "DIPS.FastTrak.UI\\ToolButton.razor.css",
+              "ViewState": "AgIAACIAAAAAAAAAAAAiwDUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-04T20:43:09.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "PopupList.razor.css",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\PopupList.razor.css",
               "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\PopupList.razor.css",
               "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\PopupList.razor.css",
               "RelativeToolTip": "DIPS.FastTrak.UI\\PopupList.razor.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-10-04T06:05:11.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "RoundButton.razor",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\RoundButton.razor",
               "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\RoundButton.razor",
@@ -187,33 +212,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "PopupList.razor",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\PopupList.razor",
               "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\PopupList.razor",
               "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\PopupList.razor",
               "RelativeToolTip": "DIPS.FastTrak.UI\\PopupList.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-04T06:05:05.903Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "RoundButton.razor.css",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\RoundButton.razor.css",
               "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\RoundButton.razor.css",
               "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\RoundButton.razor.css",
               "RelativeToolTip": "DIPS.FastTrak.UI\\RoundButton.razor.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-10-04T10:32:57.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Panel.razor",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\Panel.razor",
               "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\Panel.razor",
@@ -226,13 +251,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "NotificationsService.cs",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Services\\NotificationsService.cs",
+              "RelativeDocumentMoniker": "DIPS.FastTrak\\Services\\NotificationsService.cs",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Services\\NotificationsService.cs",
+              "RelativeToolTip": "DIPS.FastTrak\\Services\\NotificationsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T07:14:23.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dark.css",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\css\\themes\\dark.css",
+              "RelativeDocumentMoniker": "DIPS.FastTrak\\wwwroot\\css\\themes\\dark.css",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\css\\themes\\dark.css",
+              "RelativeToolTip": "DIPS.FastTrak\\wwwroot\\css\\themes\\dark.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-04T18:08:45.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "light.css",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\css\\themes\\light.css",
+              "RelativeDocumentMoniker": "DIPS.FastTrak\\wwwroot\\css\\themes\\light.css",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\css\\themes\\light.css",
+              "RelativeToolTip": "DIPS.FastTrak\\wwwroot\\css\\themes\\light.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-04T18:08:17.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "TitleBar.razor",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Layout\\TitleBar.razor",
               "RelativeDocumentMoniker": "DIPS.FastTrak\\Layout\\TitleBar.razor",
               "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Layout\\TitleBar.razor",
               "RelativeToolTip": "DIPS.FastTrak\\Layout\\TitleBar.razor",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAACoAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-04T07:10:53.788Z",
               "EditorCaption": ""
@@ -240,19 +304,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "NotificationsService.cs",
-              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Services\\NotificationsService.cs",
-              "RelativeDocumentMoniker": "DIPS.FastTrak\\Services\\NotificationsService.cs",
-              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Services\\NotificationsService.cs",
-              "RelativeToolTip": "DIPS.FastTrak\\Services\\NotificationsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T07:14:23.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "PopupMenu.razor",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\PopupMenu.razor",
               "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\PopupMenu.razor",
@@ -265,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "IPopupControl.cs",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\IPopupControl.cs",
               "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\IPopupControl.cs",
@@ -278,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "DropButton.razor",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\DropButton.razor",
               "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\DropButton.razor",
@@ -291,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Notification.cs",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Models\\Notification.cs",
               "RelativeDocumentMoniker": "DIPS.FastTrak\\Models\\Notification.cs",
@@ -304,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "app.css",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\css\\app.css",
               "RelativeDocumentMoniker": "DIPS.FastTrak\\wwwroot\\css\\app.css",
@@ -317,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Program.cs",
               "RelativeDocumentMoniker": "DIPS.FastTrak\\Program.cs",
@@ -330,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "DropButton.razor.css",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\DropButton.razor.css",
               "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\DropButton.razor.css",
@@ -343,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "TabsBar.razor",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Layout\\TabsBar.razor",
               "RelativeDocumentMoniker": "DIPS.FastTrak\\Layout\\TabsBar.razor",
@@ -356,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "ClinFormsService.cs",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Services\\ClinFormsService.cs",
               "RelativeDocumentMoniker": "DIPS.FastTrak\\Services\\ClinFormsService.cs",
@@ -369,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "PatientJournal.razor",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Pages\\PatientJournal.razor",
               "RelativeDocumentMoniker": "DIPS.FastTrak\\Pages\\PatientJournal.razor",
@@ -382,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\App.razor",
               "RelativeDocumentMoniker": "DIPS.FastTrak\\App.razor",
@@ -395,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "PopulationsService.cs",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Services\\PopulationsService.cs",
               "RelativeDocumentMoniker": "DIPS.FastTrak\\Services\\PopulationsService.cs",
@@ -408,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "TitleBar.razor.css",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Layout\\TitleBar.razor.css",
               "RelativeDocumentMoniker": "DIPS.FastTrak\\Layout\\TitleBar.razor.css",
@@ -421,7 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "PanelHeader.razor",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\PanelHeader.razor",
               "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\PanelHeader.razor",
@@ -434,7 +485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "Populations.razor",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Pages\\Populations.razor",
               "RelativeDocumentMoniker": "DIPS.FastTrak\\Pages\\Populations.razor",
@@ -447,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "DIPS.FastTrak\\Layout\\MainLayout.razor",
@@ -460,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "SubPanel.razor.css",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\SubPanel.razor.css",
               "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\SubPanel.razor.css",
@@ -473,7 +524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "SearchBar.razor",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\SearchBar.razor",
               "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\SearchBar.razor",
@@ -486,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "UiService.cs",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Services\\UiService.cs",
               "RelativeDocumentMoniker": "DIPS.FastTrak\\Services\\UiService.cs",
@@ -499,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "PanelTextBox.razor.css",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\PanelTextBox.razor.css",
               "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\PanelTextBox.razor.css",
@@ -512,7 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "Toggle.razor",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\Toggle.razor",
               "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\Toggle.razor",
@@ -525,7 +576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "GlobalSearch.cs",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Services\\GlobalSearch.cs",
               "RelativeDocumentMoniker": "DIPS.FastTrak\\Services\\GlobalSearch.cs",
@@ -538,7 +589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "SearchBox.razor",
               "DocumentMoniker": "C:\\Projects\\Controls\\BergSoft.UI.Blazor\\Components\\TextBox\\SearchBox.razor",
               "RelativeDocumentMoniker": "..\\Controls\\BergSoft.UI.Blazor\\Components\\TextBox\\SearchBox.razor",
@@ -551,7 +602,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "SearchBar.razor.css",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\SearchBar.razor.css",
               "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\SearchBar.razor.css",
@@ -564,7 +615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "ISearchProvider.cs",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\ISearchProvider.cs",
               "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\ISearchProvider.cs",
@@ -577,7 +628,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "PanelSubHeader.razor",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\PanelSubHeader.razor",
               "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\PanelSubHeader.razor",
@@ -590,7 +641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "PageSheet.razor.css",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\PageSheet.razor.css",
               "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\PageSheet.razor.css",
@@ -603,7 +654,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "Toolbar.razor",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\Toolbar.razor",
               "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\Toolbar.razor",
@@ -616,7 +667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "Toolbar.razor.css",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\Toolbar.razor.css",
               "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\Toolbar.razor.css",

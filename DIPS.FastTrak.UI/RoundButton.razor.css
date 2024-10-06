@@ -12,7 +12,7 @@
 }
 
     .RoundButton.IsOpen {
-        background: #79CEB5;
+        background: var(--secondaryPrimaryDarker);
     }
 
     .RoundButton:hover:not(.IsOpen) {
@@ -20,5 +20,5 @@
     }
 
     .RoundButton:hover:active {
-        background: #79CEB5;
+        background: var(--secondaryPrimaryDarker);
     }
