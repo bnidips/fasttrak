@@ -129,8 +129,9 @@
 /* _content/DIPS.FastTrak.UI/PanelHeader.razor.rz.scp.css */
 .PanelHeader[b-s1wc2re29x] {
     align-items: center;
-    font-family: 'Circular Std Medium';
+    font-family: 'Circular Std';
     font-size: 18px;
+    font-weight: bold;
     color: var(--text);
     display: flex;
     gap: 10px;
@@ -356,6 +357,7 @@
         }
 /* _content/DIPS.FastTrak.UI/Splitter.razor.rz.scp.css */
 .Splitter[b-u3je4nwypn] {
+    cursor: ns-resize;
     height: 10px;
 }
 /* _content/DIPS.FastTrak.UI/SubPanel.razor.rz.scp.css */

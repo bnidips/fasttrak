@@ -16,5 +16,6 @@ builder.Services.AddSingleton<IGlobalSearch, GlobalSearch>();
 builder.Services.AddSingleton<IUiService, UiService>();
 builder.Services.AddSingleton<IUserService, UserService>();
 builder.Services.AddSingleton<INotificationsService, NotificationsService>();
+builder.Services.AddSingleton<IDrugsService, DrugsService>();
 
 await builder.Build().RunAsync();

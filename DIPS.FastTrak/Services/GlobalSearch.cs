@@ -10,6 +10,7 @@ public interface IGlobalSearch
     Task SearchAsync(string value);
     IList<ISearchResult> SearchResults { get; }
     Task InvokeAsync(ISearchResult searchResult);
+
     event ExecutedHandler? Executed;
 }
 

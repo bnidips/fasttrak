@@ -1,6 +1,20 @@
-﻿* {
+﻿@font-face {
+    font-family: 'Circular Std';
+    src: url('/fonts/CircularStd-Book.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url('/fonts/CircularStd-Medium.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
     box-sizing: border-box;
-    font-family: 'Circular Std Book';
+    font-family: 'Circular Std';
     font-size: 12px;
 }
 

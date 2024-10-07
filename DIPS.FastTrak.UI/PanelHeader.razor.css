@@ -1,7 +1,8 @@
 ﻿.PanelHeader {
     align-items: center;
-    font-family: 'Circular Std Medium';
+    font-family: 'Circular Std';
     font-size: 18px;
+    font-weight: bold;
     color: var(--text);
     display: flex;
     gap: 10px;

@@ -1,5 +1,6 @@
 ﻿@page "/PatientJournal"
 @inject IClinFormsService ClinFormsService
+@inject IDrugsService DrugService
 
 <section style="display: flex; gap: 10px; padding: 10px; flex: 1">
     <section style="width: 270px; display: flex; flex-direction: column">
@@ -47,6 +48,13 @@
                     </ItemTemplate>
                 </ListBox>
             </SubPanel>
+        </Panel>
+        <Splitter />
+        <Panel style="flex: 1">
+            <PanelHeader Separator="true">
+                <Header>Påminnelser</Header>
+            </PanelHeader>
+            <div style="height: 80px"></div>
         </Panel>
     </section>
     <section style="flex: 1">
@@ -115,9 +123,15 @@
             </PanelHeader>
             <PageControl>
                 <PageSheet>
-                    <Title>Page 1</Title>
+                    <Title>I bruk</Title>
                     <ChildContent>
-                        Content 1
+                        <SubPanel>
+                            <ListBox T="DrugTreatment" ItemsSource="DrugService.DrugTreatments">
+                                <ItemTemplate>
+                                    @context.DrugName
+                                </ItemTemplate>
+                            </ListBox>
+                        </SubPanel>
                     </ChildContent>
                 </PageSheet>
                 <PageSheet>

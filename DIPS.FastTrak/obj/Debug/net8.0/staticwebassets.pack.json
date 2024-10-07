@@ -37,6 +37,38 @@
       "PackagePath": "staticwebassets\\css\\variables.css"
     },
     {
+      "Id": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\fonts\\CircularStd-Black.otf",
+      "PackagePath": "staticwebassets\\fonts\\CircularStd-Black.otf"
+    },
+    {
+      "Id": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\fonts\\CircularStd-BlackItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\CircularStd-BlackItalic.otf"
+    },
+    {
+      "Id": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\fonts\\CircularStd-Bold.otf",
+      "PackagePath": "staticwebassets\\fonts\\CircularStd-Bold.otf"
+    },
+    {
+      "Id": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\fonts\\CircularStd-BoldItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\CircularStd-BoldItalic.otf"
+    },
+    {
+      "Id": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\fonts\\CircularStd-Book.otf",
+      "PackagePath": "staticwebassets\\fonts\\CircularStd-Book.otf"
+    },
+    {
+      "Id": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\fonts\\CircularStd-BookItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\CircularStd-BookItalic.otf"
+    },
+    {
+      "Id": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\fonts\\CircularStd-Medium.otf",
+      "PackagePath": "staticwebassets\\fonts\\CircularStd-Medium.otf"
+    },
+    {
+      "Id": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\fonts\\CircularStd-MediumItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\CircularStd-MediumItalic.otf"
+    },
+    {
       "Id": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
