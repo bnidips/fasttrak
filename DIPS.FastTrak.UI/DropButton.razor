@@ -1,4 +1,4 @@
-<button class="DropButton @GetButtonClass()" @onclick="HandleClick">
+<button class="DropButton @GetCssClass()" @onclick="HandleClick">
     <div class="Content" >
         @ChildContent
     </div>
@@ -9,24 +9,34 @@
 
 @code {
     [CascadingParameter]
-    internal IPopupControl? PopupMenu { get; set; }
+    internal IPopupControl? PopupControl { get; set; }
 
     [Parameter]
     public RenderFragment? ChildContent { get; set; }
 
     [Parameter]
+    public EventCallback OnClick { get; set; }
+
+    [Parameter]
     public bool PillShape { get; set; }
 
-    private string GetButtonClass() => PillShape ? "PillShape" : "";
+    private string GetCssClass()
+    {
+        var css = "";
+        if (PillShape) css += "PillShape ";
+        if (PopupControl?.GetIsOpen() == true) css += "IsOpen";
+        return css;
+    }
 
     private async Task HandleClick(MouseEventArgs e)
     {
-        if (PopupMenu != null)
+        if (PopupControl != null)
         {
-            if (PopupMenu.GetIsOpen())
-                await PopupMenu.CloseAsync();
+            if (PopupControl.GetIsOpen())
+                await PopupControl.CloseAsync();
             else
-                await PopupMenu.OpenAsync();
+                await PopupControl.OpenAsync();
         }
+        await OnClick.InvokeAsync();
     }
 }

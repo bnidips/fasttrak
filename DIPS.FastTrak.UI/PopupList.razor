@@ -1,20 +1,22 @@
 @implements IPopupControl
 @typeparam T
 
-<CascadingValue Value="this">
-    @ChildContent
-</CascadingValue>
-@if (ItemsSource != null && _isOpen)
-{
-    <div class="PopupList" @attributes="Attributes">
-        <Virtualize Items="ItemsSource">
-            <button @onclick="HandleItemClick">
-                @ItemTemplate(context)
-            </button>
-        </Virtualize>
-        @Footer
-    </div>
-}
+<div style="position: relative">
+    <CascadingValue Value="this">
+        @ChildContent
+    </CascadingValue>
+    @if (Items != null && _isOpen)
+    {
+        <div class="PopupList @GetClass()" @attributes="Attributes">
+            <Virtualize Items="Items">
+                <button @onclick="async e => await HandleItemClick(context)">
+                    @ItemTemplate(context)
+                </button>
+            </Virtualize>
+            @Footer
+        </div>
+    }
+</div>
 
 @code {
     bool _isOpen;
@@ -29,7 +31,7 @@
     public RenderFragment? Footer { get; set; }
 
     [Parameter]
-    public IList<T>? ItemsSource { get; set; }
+    public IList<T>? Items { get; set; }
 
     [Parameter]
     public RenderFragment<T> ItemTemplate { get; set; } = context => @<span>@context</span>;
@@ -40,13 +42,42 @@
     [Parameter]
     public EventCallback<bool> IsOpenChanged { get; set; }
 
+    [Parameter]
+    public EventCallback<T> OnSelect { get; set; }
+
+    [Parameter]
+    public PopupAnchor PopupAnchor { get; set; } = PopupAnchor.Top;
+
+    #region Lifecycle methods
+
     protected override void OnParametersSet()
     {
         base.OnParametersSet();
         _isOpen = IsOpen;
     }
 
-    private async Task HandleItemClick() => await CloseAsync();
+    #endregion
+
+    private string GetClass()
+    {
+        var css = "";
+        switch (PopupAnchor)
+        {
+            case PopupAnchor.Right:
+                css += "AnchorRight";
+                break;
+            case PopupAnchor.Top:
+                css += "AnchorTop";
+                break;
+        }
+        return css;
+    }
+
+    private async Task HandleItemClick(T item)
+    {
+        await OnSelect.InvokeAsync(item);
+        await CloseAsync();
+    }
 
     public bool GetIsOpen() => _isOpen;
 

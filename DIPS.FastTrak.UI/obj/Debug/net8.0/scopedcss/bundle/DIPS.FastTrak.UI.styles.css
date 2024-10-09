@@ -41,14 +41,18 @@
         padding: 0 var(--borderRadiusLarge);
     }
 
-    .DropButton:hover[b-9i7cm87tro] {
-        background: var(--secondaryPrimary);
-    }
-
     .DropButton:active[b-9i7cm87tro] {
         background: var(--secondaryPrimary);
         mix-blend-mode: var(--blendMode);
     }
+
+    .DropButton.IsOpen[b-9i7cm87tro] {
+        background: var(--secondaryPrimaryDarker);
+    }
+
+    .DropButton:hover:not(.IsOpen)[b-9i7cm87tro] {
+        background: var(--secondaryPrimary);
+    }   
 
 .Content[b-9i7cm87tro] {
     align-items: center;
@@ -221,10 +225,17 @@
     overflow: clip;
     padding: var(--borderRadius);
     position: absolute;
-    right: 10px;
     min-width: 160px;
     z-index: 2400;
 }
+
+    .PopupList.AnchorRight[b-fnvejlthrx] {
+        right: 0;
+    }
+
+    .PopupList.AnchorTop[b-fnvejlthrx] {
+        top: 100%;
+    }
 
     .PopupList button[b-fnvejlthrx] {
         align-items: flex-start;
@@ -422,6 +433,7 @@
     border-radius: var(--borderRadius);
     display: flex;
     padding: var(--borderRadius);
+    user-select: none;
 }
 
     .Toolbar.Separator[b-p8fn2l7kx8] {

@@ -1,0 +1,19 @@
+﻿<article class="FormItem">
+    <header>
+        <h3>@Header</h3>
+    </header>
+    <section>
+        @ChildContent
+    </section>
+</article>
+
+@code {
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+
+    [Parameter]
+    public string Header { get; set; } = "";
+
+    [Parameter]
+    public string Title { get; set; } = "";
+}

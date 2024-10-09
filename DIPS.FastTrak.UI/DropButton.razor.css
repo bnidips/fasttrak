@@ -16,14 +16,18 @@
         padding: 0 var(--borderRadiusLarge);
     }
 
-    .DropButton:hover {
-        background: var(--secondaryPrimary);
-    }
-
     .DropButton:active {
         background: var(--secondaryPrimary);
         mix-blend-mode: var(--blendMode);
     }
+
+    .DropButton.IsOpen {
+        background: var(--secondaryPrimaryDarker);
+    }
+
+    .DropButton:hover:not(.IsOpen) {
+        background: var(--secondaryPrimary);
+    }   
 
 .Content {
     align-items: center;

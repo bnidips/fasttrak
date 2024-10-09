@@ -5,10 +5,17 @@
     overflow: clip;
     padding: var(--borderRadius);
     position: absolute;
-    right: 10px;
     min-width: 160px;
     z-index: 2400;
 }
+
+    .PopupList.AnchorRight {
+        right: 0;
+    }
+
+    .PopupList.AnchorTop {
+        top: 100%;
+    }
 
     .PopupList button {
         align-items: flex-start;

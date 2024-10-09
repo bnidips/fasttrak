@@ -1,9 +1,9 @@
 @typeparam T
 
 <div class="ListBox" @attributes="Attributes">
-    @if (ItemsSource != null)
+    @if (Items != null)
     {
-        <Virtualize Items="ItemsSource">
+        <Virtualize Items="Items">
             <button class="Item @GetItemCssClass(context)" @ondblclick="async (e) => await HandleDblClick(context)" @onmousedown="(e) => SelectItem(context)">
                 @ItemTemplate(context)
             </button>
@@ -22,7 +22,7 @@
     public Dictionary<string, object>? Attributes { get; set; }
 
     [Parameter]
-    public ICollection<T>? ItemsSource { get; set; }
+    public ICollection<T>? Items { get; set; }
 
     [Parameter]
     public RenderFragment<T> ItemTemplate { get; set; } = context => @<span>context</span>;

@@ -30,7 +30,7 @@
                     </Title>
                     <ChildContent>
                         <SubPanel>
-                            <ListBox T="StudyCase" ItemsSource="PopulationsService.ActivePopulation" style="height: 280px" OnDblClick="HandleStudyCaseDblClick">
+                            <ListBox T="StudyCase" Items="PopulationsService.ActivePopulation" style="height: 280px" OnDblClick="HandleStudyCaseDblClick">
                                 <ItemTemplate>
                                     <div class="StudyCase">
                                         <div class="PersonId">
@@ -71,6 +71,23 @@
             <PanelHeader Separator="true">
                 <Header>Historikk</Header>
             </PanelHeader>
+            <SubPanel>
+                <ListBox T="StudyCase" Items="PopulationsService.RecentStudyCases">
+                    <ItemTemplate>
+                        <div class="StudyCase">
+                            <div class="PersonId">
+                                @context.PersonId
+                            </div>
+                            <div class="PersonInfo">
+                                <span>12.06.1974</span>
+                                <span>@context.FullName</span>
+                                <span>Aktiv</span>
+                            </div>
+                            <div class="StudyGroup">Poliklinikk</div>
+                        </div>
+                    </ItemTemplate>
+                </ListBox>
+            </SubPanel>
         </Panel>
     </section>
 
@@ -102,6 +119,9 @@
             <PanelHeader>
                 <Header>Rapporter</Header>
             </PanelHeader>
+            <SubPanel>
+                <ListBox T="Report" style="height: 200px" />
+            </SubPanel>
         </Panel>
     </section>
 </section>

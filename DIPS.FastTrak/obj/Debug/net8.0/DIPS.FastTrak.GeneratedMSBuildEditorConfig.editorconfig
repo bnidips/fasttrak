@@ -46,6 +46,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Projects/FastTrak/DIPS.FastTrak/Components/FormControl.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGb3JtQ29udHJvbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-c92zg1gefy
+
+[C:/Projects/FastTrak/DIPS.FastTrak/Components/FormItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGb3JtSXRlbS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-3mk5k9t7db
+
+[C:/Projects/FastTrak/DIPS.FastTrak/Components/QuantityFormItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xRdWFudGl0eUZvcm1JdGVtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-sd53q3d7vb
+
 [C:/Projects/FastTrak/DIPS.FastTrak/Layout/StatusBar.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XFN0YXR1c0Jhci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-59idrnadfk

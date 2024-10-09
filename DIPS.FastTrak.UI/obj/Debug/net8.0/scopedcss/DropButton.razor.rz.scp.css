@@ -16,14 +16,18 @@
         padding: 0 var(--borderRadiusLarge);
     }
 
-    .DropButton:hover[b-9i7cm87tro] {
-        background: var(--secondaryPrimary);
-    }
-
     .DropButton:active[b-9i7cm87tro] {
         background: var(--secondaryPrimary);
         mix-blend-mode: var(--blendMode);
     }
+
+    .DropButton.IsOpen[b-9i7cm87tro] {
+        background: var(--secondaryPrimaryDarker);
+    }
+
+    .DropButton:hover:not(.IsOpen)[b-9i7cm87tro] {
+        background: var(--secondaryPrimary);
+    }   
 
 .Content[b-9i7cm87tro] {
     align-items: center;

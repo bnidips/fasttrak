@@ -10,6 +10,11 @@ public interface IPopulationsService
 {
     event StudyCaseDelegate? ActiveStudyCaseChanged;
     IList<StudyCase> ActivePopulation { get; }
+
+    /// <summary>
+    /// StudyCases recently open
+    /// </summary>
+    IList<StudyCase> RecentStudyCases { get; }
     string StudyCasesFilter { get; set; }
     IList<StudyCase> FilterStudyCases(IList<StudyCase> studyCases, string filter);
     StudyCase? ActiveStudyCase { get; set; }
@@ -23,9 +28,11 @@ public class PopulationsService : IPopulationsService, ISearchProvider
 
     string _studyCasesFilter = "";
 
-    NavigationManager _navigation;
+    readonly NavigationManager _navigation;
 
     readonly IList<StudyCase> _allStudyCases;
+
+    readonly List<StudyCase> _recentStudyCases = [];
 
     public event StudyCaseDelegate? ActiveStudyCaseChanged;
 
@@ -55,6 +62,10 @@ public class PopulationsService : IPopulationsService, ISearchProvider
             {
                 _activeStudyCase = value;
                 ActiveStudyCaseChanged?.Invoke(_activeStudyCase);
+                if (_activeStudyCase != null && !_recentStudyCases.Contains(_activeStudyCase))
+                {
+                    _recentStudyCases.Add(_activeStudyCase);
+                }
             }
         }
     }
@@ -68,6 +79,8 @@ public class PopulationsService : IPopulationsService, ISearchProvider
             ActivePopulation = FilterStudyCases(_allStudyCases, _studyCasesFilter);
         }
     }
+
+    public IList<StudyCase> RecentStudyCases => _recentStudyCases;
 
     public void Execute(ISearchResult result)
     {

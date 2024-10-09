@@ -1,5 +1,5 @@
 .TitleBar {
-    --Sides: 360px;
+    --Sides: 340px;
 
     align-items: center;
     background: var(--surface);

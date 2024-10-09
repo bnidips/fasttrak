@@ -26,6 +26,7 @@ C:\Projects\FastTrak\DIPS.FastTrak.UI\obj\Debug\net8.0\scopedcss\Panel.razor.rz.
 C:\Projects\FastTrak\DIPS.FastTrak.UI\obj\Debug\net8.0\scopedcss\PanelHeader.razor.rz.scp.css
 C:\Projects\FastTrak\DIPS.FastTrak.UI\obj\Debug\net8.0\scopedcss\PanelSubHeader.razor.rz.scp.css
 C:\Projects\FastTrak\DIPS.FastTrak.UI\obj\Debug\net8.0\scopedcss\PanelTextBox.razor.rz.scp.css
+C:\Projects\FastTrak\DIPS.FastTrak.UI\obj\Debug\net8.0\scopedcss\PopupList.razor.rz.scp.css
 C:\Projects\FastTrak\DIPS.FastTrak.UI\obj\Debug\net8.0\scopedcss\PopupMenu.razor.rz.scp.css
 C:\Projects\FastTrak\DIPS.FastTrak.UI\obj\Debug\net8.0\scopedcss\RoundButton.razor.rz.scp.css
 C:\Projects\FastTrak\DIPS.FastTrak.UI\obj\Debug\net8.0\scopedcss\SearchBar.razor.rz.scp.css
@@ -41,4 +42,3 @@ C:\Projects\FastTrak\DIPS.FastTrak.UI\obj\Debug\net8.0\DIPS.FastTrak.UI.dll
 C:\Projects\FastTrak\DIPS.FastTrak.UI\obj\Debug\net8.0\refint\DIPS.FastTrak.UI.dll
 C:\Projects\FastTrak\DIPS.FastTrak.UI\obj\Debug\net8.0\DIPS.FastTrak.UI.pdb
 C:\Projects\FastTrak\DIPS.FastTrak.UI\obj\Debug\net8.0\ref\DIPS.FastTrak.UI.dll
-C:\Projects\FastTrak\DIPS.FastTrak.UI\obj\Debug\net8.0\scopedcss\PopupList.razor.rz.scp.css

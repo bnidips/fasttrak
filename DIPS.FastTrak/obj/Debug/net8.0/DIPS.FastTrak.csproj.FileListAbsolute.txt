@@ -1,3 +1,10 @@
+C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\DIPS.FastTrak.csproj.AssemblyReference.cache
+C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\DIPS.FastTrak.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\DIPS.FastTrak.AssemblyInfoInputs.cache
+C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\DIPS.FastTrak.AssemblyInfo.cs
+C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\DIPS.FastTrak.csproj.CoreCompileInputs.cache
+C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\DIPS.FastTrak.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\DIPS.FastTrak.sourcelink.json
 C:\Projects\FastTrak\DIPS.FastTrak\bin\Debug\net8.0\wwwroot\_framework\blazor.boot.json
 C:\Projects\FastTrak\DIPS.FastTrak\bin\Debug\net8.0\wwwroot\_framework\blazor.webassembly.js
 C:\Projects\FastTrak\DIPS.FastTrak\bin\Debug\net8.0\wwwroot\_framework\DIPS.FastTrak.pdb
@@ -616,13 +623,6 @@ C:\Projects\FastTrak\DIPS.FastTrak\bin\Debug\net8.0\icudt_EFIGS.dat
 C:\Projects\FastTrak\DIPS.FastTrak\bin\Debug\net8.0\icudt_no_CJK.dat
 C:\Projects\FastTrak\DIPS.FastTrak\bin\Debug\net8.0\DIPS.FastTrak.UI.dll
 C:\Projects\FastTrak\DIPS.FastTrak\bin\Debug\net8.0\DIPS.FastTrak.UI.pdb
-C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\DIPS.FastTrak.csproj.AssemblyReference.cache
-C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\DIPS.FastTrak.GeneratedMSBuildEditorConfig.editorconfig
-C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\DIPS.FastTrak.AssemblyInfoInputs.cache
-C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\DIPS.FastTrak.AssemblyInfo.cs
-C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\DIPS.FastTrak.csproj.CoreCompileInputs.cache
-C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\DIPS.FastTrak.MvcApplicationPartsAssemblyInfo.cache
-C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\DIPS.FastTrak.sourcelink.json
 C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Authorization.wasm
 C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.wasm
 C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.Forms.wasm
@@ -1041,3 +1041,6 @@ C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\DIPS.FastTrak.dll
 C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\refint\DIPS.FastTrak.dll
 C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\DIPS.FastTrak.pdb
 C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\ref\DIPS.FastTrak.dll
+C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\scopedcss\Components\FormControl.razor.rz.scp.css
+C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\scopedcss\Components\FormItem.razor.rz.scp.css
+C:\Projects\FastTrak\DIPS.FastTrak\obj\Debug\net8.0\scopedcss\Components\QuantityFormItem.razor.rz.scp.css
