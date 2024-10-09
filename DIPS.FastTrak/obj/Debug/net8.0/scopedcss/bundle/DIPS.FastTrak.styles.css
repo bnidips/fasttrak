@@ -21,7 +21,26 @@
     margin: 0;
 }
 /* /Components/QuantityFormItem.razor.rz.scp.css */
-body[b-sd53q3d7vb] {
+.QuantityFormItem[b-sd53q3d7vb] {
+    background: var(--neutralLight);
+    display: flex;
+    height: 24px;
+    min-height: 24px;
+    border-radius: 12px;
+    border: 0;
+    outline: none;
+    padding: 0 0 0 10px;
+}
+
+    .QuantityFormItem input[b-sd53q3d7vb] {
+        background: none;
+        border: 0;
+        outline: none;
+    }
+
+.QuantityFormItem button[b-sd53q3d7vb] {
+    background: none;
+    border: 0;
 }
 /* /Layout/StatusBar.razor.rz.scp.css */
 .StatusBar[b-59idrnadfk] {
