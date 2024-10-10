@@ -6,7 +6,7 @@
     gap: var(--borderRadius);
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 100px;
-    padding: calc(var(--borderRadius) * 2);
+    padding: calc(var(--borderRadiusLarge) * 2);
 }
 
 @media (min-width: 1200px) {
@@ -15,7 +15,19 @@
     }
 }
 /* /Components/FormItem.razor.rz.scp.css */
+.FormItem[b-3mk5k9t7db] {
+    color: var(--text);
+}
+
 .FormItem h3[b-3mk5k9t7db] {
+    margin: 0 0 4px 0;
+}
+/* /Components/FormPage.razor.rz.scp.css */
+.PageTitle[b-97pehkrjjx] {
+    color: var(--text);
+    font-size: 18px;
+    font-weight: normal;
+    grid-column: 1 / -1;
     margin: 0;
 }
 /* /Components/QuantityFormItem.razor.rz.scp.css */
@@ -27,19 +39,43 @@
     border-radius: 12px;
     border: 0;
     outline: none;
-    padding: 0 0 0 10px;
+    padding: 0 10px 0 0;
+    width: 100px;
 }
 
     .QuantityFormItem input[b-sd53q3d7vb] {
         background: none;
         border: 0;
+        flex: 1;
+        width: 100%;
         outline: none;
+        text-align: right;
     }
 
-.QuantityFormItem button[b-sd53q3d7vb] {
-    background: none;
-    border: 0;
-}
+        .QuantityFormItem input:focus[b-sd53q3d7vb] {
+            text-align: left;
+        }
+
+    .QuantityFormItem button[b-sd53q3d7vb] {
+        background: none;
+        border: 0;
+        border-radius: 12px;
+        cursor: pointer;
+        display: none;
+        width: 24px;
+    }
+
+    .QuantityFormItem button:hover[b-sd53q3d7vb] {
+        background: var(--primary);
+    }
+
+    .QuantityFormItem:focus-within[b-sd53q3d7vb] {
+        padding: 0 0 0 10px;
+    }
+
+    .QuantityFormItem:focus-within button[b-sd53q3d7vb] {
+        display: block;
+    }
 /* /Layout/StatusBar.razor.rz.scp.css */
 .StatusBar[b-59idrnadfk] {
     align-items: center;

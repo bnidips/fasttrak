@@ -1,4 +1,4 @@
-<button class="ToolButton" @attributes="Attributes">
+<button class="ToolButton @CssClass()" @attributes="Attributes">
     <div class="Content">
         @ChildContent
     </div>
@@ -21,4 +21,9 @@
 
     [CascadingParameter]
     public PopupMenu? PopupMenu { get; set; }
+
+    [CascadingParameter]
+    internal Toolbar? Toolbar { get; set; }
+
+    private string? CssClass() => Toolbar?.Compact == true ? "Compact" : null;
 }

@@ -21,6 +21,12 @@
                     </svg>
                     <span>Favoritt</span>
                 </ToolButton>
+                <ToolButton>
+                    <svg width="16" height="16" viewBox="0 0 24 24">
+                        <path d="M19.25 3c.966 0 1.75.784 1.75 1.75v2c0 .698-.408 1.3-1 1.581v9.919A3.75 3.75 0 0 1 16.25 22h-8.5A3.75 3.75 0 0 1 4 18.25V8.332A1.75 1.75 0 0 1 3 6.75v-2C3 3.784 3.784 3 4.75 3h14.5Zm-.75 5.5h-13v9.75a2.25 2.25 0 0 0 2.25 2.25h8.5a2.25 2.25 0 0 0 2.25-2.25V8.5Zm-8.5 3h4a.75.75 0 0 1 .102 1.493L14 13h-4a.75.75 0 0 1-.102-1.493L10 11.5h4-4Zm9.25-7H4.75a.25.25 0 0 0-.25.25v2c0 .138.112.25.25.25h14.5a.25.25 0 0 0 .25-.25v-2a.25.25 0 0 0-.25-.25Z" />
+                    </svg>
+                    <span>Arkiver</span>
+                </ToolButton>
             </Toolbar>
             <SubPanel style="flex-direction: row; justify-content: space-between">
                 <Toggle>
@@ -143,16 +149,37 @@
             </ListBox>
         </Panel>
         <Panel style="margin-top: 10px">
-            <PanelHeader>
+            <PanelHeader Separator="true">
                 <Header>Legemidler</Header>
             </PanelHeader>
             <PageControl>
                 <PageSheet>
                     <Title>I bruk</Title>
                     <ChildContent>
+                        <Toolbar Compact="true">
+                            <ToolButton>
+                                <svg width="16" height="16" viewBox="0 0 24 24">
+                                    <path d="M10.788 3.103c.495-1.004 1.926-1.004 2.421 0l2.358 4.777 5.273.766c1.107.161 1.549 1.522.748 2.303l-3.816 3.72.901 5.25c.19 1.103-.968 1.944-1.959 1.424l-4.716-2.48-4.715 2.48c-.99.52-2.148-.32-1.96-1.424l.901-5.25-3.815-3.72c-.801-.78-.359-2.142.748-2.303L8.43 7.88l2.358-4.777Zm1.21.936L9.74 8.615a1.35 1.35 0 0 1-1.016.738l-5.05.734 3.654 3.562c.318.31.463.757.388 1.195l-.862 5.03 4.516-2.375a1.35 1.35 0 0 1 1.257 0l4.516 2.374-.862-5.029a1.35 1.35 0 0 1 .388-1.195l3.654-3.562-5.05-.734a1.35 1.35 0 0 1-1.016-.738l-2.259-4.576Z" />
+                                </svg>
+                            </ToolButton>
+                            <ToolButton>
+                                <svg width="16" height="16" viewBox="0 0 24 24">
+                                    <path d="M12 3.5a8.5 8.5 0 1 0 0 17 8.5 8.5 0 0 0 0-17ZM2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12Zm6-2.5A1.5 1.5 0 0 1 9.5 8h5A1.5 1.5 0 0 1 16 9.5v5a1.5 1.5 0 0 1-1.5 1.5h-5A1.5 1.5 0 0 1 8 14.5v-5Z" />
+                                </svg>
+                            </ToolButton>
+                        </Toolbar>
                         <SubPanel>
                             <ListBox T="DrugTreatment" Items="DrugService.DrugTreatments">
                                 <ItemTemplate>
+                                    @switch (context.TreatType)
+                                    {
+                                        case TreatType.Regular:
+                                            <span>Fast</span>
+                                            break;
+                                        case TreatType.AsNeeded:
+                                            <span>Behov</span>
+                                            break;
+                                    }
                                     @context.DrugName
                                 </ItemTemplate>
                             </ListBox>
@@ -160,9 +187,8 @@
                     </ChildContent>
                 </PageSheet>
                 <PageSheet>
-                    <Title>Page 2</Title>
+                    <Title>Bivirkning</Title>
                     <ChildContent>
-                        Content 2
                     </ChildContent>
                 </PageSheet>
             </PageControl>

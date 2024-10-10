@@ -1,3 +1,7 @@
-﻿.FormItem h3 {
-    margin: 0;
+﻿.FormItem {
+    color: var(--text);
+}
+
+.FormItem h3 {
+    margin: 0 0 4px 0;
 }

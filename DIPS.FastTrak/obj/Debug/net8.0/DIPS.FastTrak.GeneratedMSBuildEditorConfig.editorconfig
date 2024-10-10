@@ -54,6 +54,10 @@ build_metadata.AdditionalFiles.CssScope = b-c92zg1gefy
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGb3JtSXRlbS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-3mk5k9t7db
 
+[C:/Projects/FastTrak/DIPS.FastTrak/Components/FormPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGb3JtUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-97pehkrjjx
+
 [C:/Projects/FastTrak/DIPS.FastTrak/Components/QuantityFormItem.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xRdWFudGl0eUZvcm1JdGVtLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-sd53q3d7vb

@@ -1,0 +1,7 @@
+﻿.PageTitle {
+    color: var(--text);
+    font-size: 18px;
+    font-weight: normal;
+    grid-column: 1 / -1;
+    margin: 0;
+}

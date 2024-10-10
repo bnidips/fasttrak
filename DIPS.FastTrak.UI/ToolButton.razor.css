@@ -12,6 +12,11 @@
     overflow: hidden;
 }
 
+    .ToolButton.Compact {
+        min-height: 40px;
+        min-width: 40px;
+    }
+
 .ToolButton:disabled {
     cursor: default;
     opacity: .5;
@@ -26,6 +31,10 @@
     justify-content: space-around;
     min-width: 48px;
     padding: var(--borderRadius);
+}
+
+.ToolButton.Compact .Content {
+    min-width: 40px;
 }
 
 .PopupButton {

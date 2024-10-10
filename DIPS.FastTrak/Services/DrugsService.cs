@@ -46,8 +46,10 @@ public class DrugsService : IDrugsService, ISearchProvider
                     list.Add(new DrugTreatment(searchProvider: this, drugName: "Burinex"));
                     list.Add(new DrugTreatment(searchProvider: this, drugName: "Levaxin"));
                     break;
-                case 2:
+                default:
                     list.Add(new DrugTreatment(searchProvider: this, drugName: "Zocor"));
+                    list.Add(new DrugTreatment(searchProvider: this, drugName: "Keflex"));
+                    list.Add(new DrugTreatment(searchProvider: this, drugName: "Paralgin"));
                     break;
             }
         }
