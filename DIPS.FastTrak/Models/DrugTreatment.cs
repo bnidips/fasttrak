@@ -11,17 +11,21 @@ public enum TreatType
     Weekly
 }
 
-public class DrugTreatment(ISearchProvider searchProvider, string drugName) : ISearchResult
+public class DrugTreatment(ISearchProvider searchProvider, string drugName, string rxText, TreatType treatType) : ISearchResult
 {
     public int TreatId { get; set; }
-    public TreatType TreatType { get; set; }
+
+    public TreatType TreatType { get; set; } = treatType;
+
     public string DrugName { get; set; } = drugName;
+
+    public string RxText { get; set; } = rxText;
 
     public Action<ISearchProvider>? Action => throw new NotImplementedException();
 
     public ISearchProvider Provider => searchProvider;
 
-    public string SearchIcon => "person.svg";
+    public string SearchIcon => "pill.svg";
 
     public string SearchTitle => DrugName;
 

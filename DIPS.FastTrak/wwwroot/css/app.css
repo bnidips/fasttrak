@@ -113,6 +113,20 @@ main {
     text-align: right;
 }
 
+.TreatType {
+    width: 60px;
+    opacity: .8;
+    text-align: left;
+}
+
+.DrugName {
+    flex: 1;
+}
+
+.RxText {
+    text-align: right;
+}
+
 .notification-title {
     font-size: 12px;
     font-weight: 400;

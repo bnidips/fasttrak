@@ -1,0 +1,20 @@
+﻿.MultilineFormItem {
+    display: flex;
+}
+
+.MultilineFormItem textarea {
+    background: var(--neutralLight);
+    border: 0;
+    border-radius: var(--borderRadiusLarge);
+    color: var(--text);
+    min-height: 68px;
+    outline: none;
+    padding: var(--borderRadiusLarge);
+}
+
+.MultilineFormItem button {
+    background: none;
+    border: 0;
+    height: 24px;
+    width: 24px;
+}

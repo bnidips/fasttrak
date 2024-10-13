@@ -77,12 +77,20 @@
       "PackagePath": "staticwebassets\\images\\person.svg"
     },
     {
+      "Id": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\images\\pill.svg",
+      "PackagePath": "staticwebassets\\images\\pill.svg"
+    },
+    {
       "Id": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\images\\settings.svg",
       "PackagePath": "staticwebassets\\images\\settings.svg"
     },
     {
       "Id": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\web.config",
+      "PackagePath": "staticwebassets\\web.config"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DIPS.FastTrak.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -36,14 +36,6 @@
             fill: var(--text);
         }
 
-        .SearchBar > button:hover {
-            background: var(--secondaryPrimary);
-        }
-
-        .SearchBar > button:hover > svg {
-            fill: #fff;
-        }
-
 .SearchResults {
     background: #0A0D30;
     border-radius: var(--borderRadiusLarge);

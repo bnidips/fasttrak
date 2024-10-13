@@ -1,13 +1,39 @@
 ﻿@inherits FormItem
 
 <FormItem Header="@Header">
-    <div class="QuantityFormItem">
-        <input type="text" />
-        <button>-</button>
-        <button>+</button>
+    <div class="QuantityFormItem @GetCssClass()">
+        @if (!ReadOnly)
+        {
+            <input type="text" value="@Value" />
+            <button>
+                <svg width="12" height="12" viewBox="0 0 24 24">
+                    <path d="M11.75 3a.75.75 0 0 1 .743.648l.007.102.001 7.25h7.253a.75.75 0 0 1 .102 1.493l-.102.007h-7.253l.002 7.25a.75.75 0 0 1-1.493.101l-.007-.102-.002-7.249H3.752a.75.75 0 0 1-.102-1.493L3.752 11h7.25L11 3.75a.75.75 0 0 1 .75-.75Z" />
+                </svg>
+            </button>
+            <button>
+                <svg width="12" height="12" viewBox="0 0 24 24">
+                <path d="M11.75 3a.75.75 0 0 1 .743.648l.007.102.001 7.25h7.253a.75.75 0 0 1 .102 1.493l-.102.007h-7.253l.002 7.25a.75.75 0 0 1-1.493.101l-.007-.102-.002-7.249H3.752a.75.75 0 0 1-.102-1.493L3.752 11h7.25L11 3.75a.75.75 0 0 1 .75-.75Z" />
+            </svg>
+            </button>
+        }
+        else
+        {
+            @Value
+        }
     </div>
 </FormItem>
 
 @code {
+    [Parameter]
+    public bool ReadOnly { get; set; }
 
+    [Parameter]
+    public double? Value { get; set; }
+
+    private string GetCssClass()
+    {
+        var css = "";
+        if (ReadOnly) css += "ReadOnly";
+        return css;
+    }
 }

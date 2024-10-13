@@ -3,11 +3,12 @@
 <div class="SearchBar" tabindex="1">
     <input type="text" value="@_value"
            @oninput="HandleInput" @onkeydown="HandleKeyDown" @onkeydown:preventDefault="@preventKey" />
-    <button>
-        <svg width="16" height="16" fill="none" viewBox="0 0 24 24">
-            <path d="M10 2.75a7.25 7.25 0 0 1 5.63 11.819l4.9 4.9a.75.75 0 0 1-.976 1.134l-.084-.073-4.901-4.9A7.25 7.25 0 1 1 10 2.75Zm0 1.5a5.75 5.75 0 1 0 0 11.5 5.75 5.75 0 0 0 0-11.5Z" />
-        </svg>
-    </button>
+    @if (_value != "")
+    {
+        <button @onclick="HandleClearClick">
+            <svg width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m4.397 4.554.073-.084a.75.75 0 0 1 .976-.073l.084.073L12 10.939l6.47-6.47a.75.75 0 1 1 1.06 1.061L13.061 12l6.47 6.47a.75.75 0 0 1 .072.976l-.073.084a.75.75 0 0 1-.976.073l-.084-.073L12 13.061l-6.47 6.47a.75.75 0 0 1-1.06-1.061L10.939 12l-6.47-6.47a.75.75 0 0 1-.072-.976l.073-.084-.073.084Z" /></svg>
+        </button>
+    }
     @if (_isOpen)
     {
         <div @ref="_resultsReference" class="SearchResults">
@@ -95,12 +96,12 @@
         return "";
     }
 
+    private async Task HandleClearClick() => await SetValueAsync("");
+
     private async Task HandleInput(ChangeEventArgs eventArgs)
     {
         _value = eventArgs.Value?.ToString() ?? "";
-        await ValueChanged.InvokeAsync(_value);
-        await OnSearch.InvokeAsync(_value);
-        await SetIsOpenAsync(_value.Length > 0);
+        await SetValueAsync(_value);
     }
 
     private async Task HandleResultClick(T result)
@@ -108,6 +109,15 @@
         await OnResultClick.InvokeAsync(result);
         _value = "";
         _isOpen = false;
+        StateHasChanged();
+    }
+
+    private async Task SetValueAsync(string value)
+    {
+        _value = value;
+        await ValueChanged.InvokeAsync(_value);
+        await OnSearch.InvokeAsync(_value);
+        await SetIsOpenAsync(_value.Length > 0);
         StateHasChanged();
     }
 

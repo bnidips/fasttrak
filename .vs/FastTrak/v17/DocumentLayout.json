@@ -3,52 +3,24 @@
   "WorkspaceRootPath": "C:\\Projects\\FastTrak\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\components\\formpage.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\components\\formpage.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\components\\formcontrol.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\components\\formcontrol.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\components\\formcontrol.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\components\\formcontrol.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\components\\quantityformitem.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\components\\quantityformitem.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\pages\\populations.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\pages\\populations.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\services\\clinformsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\services\\clinformsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\components\\quantityformitem.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\components\\quantityformitem.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|c:\\projects\\fasttrak\\dips.fasttrak.ui\\toolbar.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|solutionrelative:dips.fasttrak.ui\\toolbar.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\services\\drugsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\services\\drugsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\pages\\patientjournal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\pages\\patientjournal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|c:\\projects\\fasttrak\\dips.fasttrak.ui\\toolbutton.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|solutionrelative:dips.fasttrak.ui\\toolbutton.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|c:\\projects\\fasttrak\\dips.fasttrak.ui\\toolbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|solutionrelative:dips.fasttrak.ui\\toolbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|c:\\projects\\fasttrak\\dips.fasttrak.ui\\toolbutton.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|solutionrelative:dips.fasttrak.ui\\toolbutton.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\services\\problemsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\services\\problemsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\components\\formcontrol.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\components\\formcontrol.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\components\\formitem.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -59,24 +31,80 @@
       "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\components\\formitem.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\components\\multilineformitem.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\components\\multilineformitem.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\components\\multilineformitem.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\components\\multilineformitem.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\components\\iconanswerformitem.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\components\\iconanswerformitem.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\components\\iconanswerformitem.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\components\\iconanswerformitem.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\components\\formpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\components\\formpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|c:\\projects\\fasttrak\\dips.fasttrak.ui\\paneltextbox.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|solutionrelative:dips.fasttrak.ui\\paneltextbox.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\layout\\titlebar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\layout\\titlebar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|c:\\projects\\fasttrak\\dips.fasttrak.ui\\searchbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|solutionrelative:dips.fasttrak.ui\\searchbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\wwwroot\\css\\variables.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\wwwroot\\css\\variables.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|c:\\projects\\fasttrak\\dips.fasttrak.ui\\searchbar.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|solutionrelative:dips.fasttrak.ui\\searchbar.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\layout\\titlebar.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\layout\\titlebar.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\pages\\patientjournal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\pages\\patientjournal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|c:\\projects\\fasttrak\\dips.fasttrak.ui\\subpanel.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|solutionrelative:dips.fasttrak.ui\\subpanel.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\layout\\statusbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\layout\\statusbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\services\\drugsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\services\\drugsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\wwwroot\\css\\themes\\dark.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\wwwroot\\css\\themes\\dark.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\wwwroot\\css\\themes\\light.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\wwwroot\\css\\themes\\light.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\services\\populationsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\services\\populationsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\components\\formcontrol.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\components\\formcontrol.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|c:\\projects\\fasttrak\\dips.fasttrak\\components\\formpage.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{ACFAFE8E-698A-4104-B116-3F60B6E857CB}|DIPS.FastTrak\\DIPS.FastTrak.csproj|solutionrelative:dips.fasttrak\\components\\formpage.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|c:\\projects\\fasttrak\\dips.fasttrak.ui\\toolbutton.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3DEC4144-41F5-49E6-98B1-DD591876B04D}|DIPS.FastTrak.UI\\DIPS.FastTrak.UI.csproj|solutionrelative:dips.fasttrak.ui\\toolbutton.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,247 +122,334 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Toolbar.razor.css",
-              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\Toolbar.razor.css",
-              "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\Toolbar.razor.css",
-              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\Toolbar.razor.css",
-              "RelativeToolTip": "DIPS.FastTrak.UI\\Toolbar.razor.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-10T09:02:09.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FormControl.razor",
-              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\FormControl.razor",
-              "RelativeDocumentMoniker": "DIPS.FastTrak\\Components\\FormControl.razor",
-              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\FormControl.razor",
-              "RelativeToolTip": "DIPS.FastTrak\\Components\\FormControl.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-08T08:23:22.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "QuantityFormItem.razor",
-              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\QuantityFormItem.razor",
-              "RelativeDocumentMoniker": "DIPS.FastTrak\\Components\\QuantityFormItem.razor",
-              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\QuantityFormItem.razor",
-              "RelativeToolTip": "DIPS.FastTrak\\Components\\QuantityFormItem.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-09T17:47:54.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "QuantityFormItem.razor.css",
-              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\QuantityFormItem.razor.css",
-              "RelativeDocumentMoniker": "DIPS.FastTrak\\Components\\QuantityFormItem.razor.css",
-              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\QuantityFormItem.razor.css",
-              "RelativeToolTip": "DIPS.FastTrak\\Components\\QuantityFormItem.razor.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-09T17:47:55.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormControl.razor.css",
-              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\FormControl.razor.css",
-              "RelativeDocumentMoniker": "DIPS.FastTrak\\Components\\FormControl.razor.css",
-              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\FormControl.razor.css",
-              "RelativeToolTip": "DIPS.FastTrak\\Components\\FormControl.razor.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-08T08:23:23.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormPage.razor.css",
-              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\FormPage.razor.css",
-              "RelativeDocumentMoniker": "DIPS.FastTrak\\Components\\FormPage.razor.css",
-              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\FormPage.razor.css",
-              "RelativeToolTip": "DIPS.FastTrak\\Components\\FormPage.razor.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-10T07:03:18.812Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DrugsService.cs",
-              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Services\\DrugsService.cs",
-              "RelativeDocumentMoniker": "DIPS.FastTrak\\Services\\DrugsService.cs",
-              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Services\\DrugsService.cs",
-              "RelativeToolTip": "DIPS.FastTrak\\Services\\DrugsService.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowCkAAAAnAAAAAAAAAA==",
+              "Title": "ClinFormsService.cs",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Services\\ClinFormsService.cs",
+              "RelativeDocumentMoniker": "DIPS.FastTrak\\Services\\ClinFormsService.cs",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Services\\ClinFormsService.cs",
+              "RelativeToolTip": "DIPS.FastTrak\\Services\\ClinFormsService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwBAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T07:42:32.697Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PatientJournal.razor",
-              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Pages\\PatientJournal.razor",
-              "RelativeDocumentMoniker": "DIPS.FastTrak\\Pages\\PatientJournal.razor",
-              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Pages\\PatientJournal.razor",
-              "RelativeToolTip": "DIPS.FastTrak\\Pages\\PatientJournal.razor",
-              "ViewState": "AgIAAJMAAAAAAAAAAAAiwKYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-08T20:10:14.025Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProblemsService.cs",
-              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Services\\ProblemsService.cs",
-              "RelativeDocumentMoniker": "DIPS.FastTrak\\Services\\ProblemsService.cs",
-              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Services\\ProblemsService.cs",
-              "RelativeToolTip": "DIPS.FastTrak\\Services\\ProblemsService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAsAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T07:42:26.09Z",
+              "WhenOpened": "2024-10-12T17:37:46.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Toolbar.razor",
-              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\Toolbar.razor",
-              "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\Toolbar.razor",
-              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\Toolbar.razor",
-              "RelativeToolTip": "DIPS.FastTrak.UI\\Toolbar.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAIAAAAAAAAAA==",
+              "Title": "IconAnswerFormItem.razor",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\IconAnswerFormItem.razor",
+              "RelativeDocumentMoniker": "DIPS.FastTrak\\Components\\IconAnswerFormItem.razor",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\IconAnswerFormItem.razor",
+              "RelativeToolTip": "DIPS.FastTrak\\Components\\IconAnswerFormItem.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-10T08:57:17.408Z",
+              "WhenOpened": "2024-10-12T11:13:20.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormControl.razor",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\FormControl.razor",
+              "RelativeDocumentMoniker": "DIPS.FastTrak\\Components\\FormControl.razor",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\FormControl.razor",
+              "RelativeToolTip": "DIPS.FastTrak\\Components\\FormControl.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T08:53:07.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuantityFormItem.razor",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\QuantityFormItem.razor",
+              "RelativeDocumentMoniker": "DIPS.FastTrak\\Components\\QuantityFormItem.razor",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\QuantityFormItem.razor",
+              "RelativeToolTip": "DIPS.FastTrak\\Components\\QuantityFormItem.razor",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwCMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T11:16:46.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuantityFormItem.razor.css",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\QuantityFormItem.razor.css",
+              "RelativeDocumentMoniker": "DIPS.FastTrak\\Components\\QuantityFormItem.razor.css",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\QuantityFormItem.razor.css",
+              "RelativeToolTip": "DIPS.FastTrak\\Components\\QuantityFormItem.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-10T11:11:46.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Populations.razor",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Pages\\Populations.razor",
+              "RelativeDocumentMoniker": "DIPS.FastTrak\\Pages\\Populations.razor",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Pages\\Populations.razor",
+              "RelativeToolTip": "DIPS.FastTrak\\Pages\\Populations.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T11:45:05.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MultilineFormItem.razor.css",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\MultilineFormItem.razor.css",
+              "RelativeDocumentMoniker": "DIPS.FastTrak\\Components\\MultilineFormItem.razor.css",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\MultilineFormItem.razor.css",
+              "RelativeToolTip": "DIPS.FastTrak\\Components\\MultilineFormItem.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-12T11:38:36.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "ToolButton.razor.css",
-              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\ToolButton.razor.css",
-              "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\ToolButton.razor.css",
-              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\ToolButton.razor.css",
-              "RelativeToolTip": "DIPS.FastTrak.UI\\ToolButton.razor.css",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-10T09:09:47.035Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ToolButton.razor",
-              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\ToolButton.razor",
-              "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\ToolButton.razor",
-              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\ToolButton.razor",
-              "RelativeToolTip": "DIPS.FastTrak.UI\\ToolButton.razor",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAiwBsAAAAAAAAAAAAAAA==",
+              "Title": "MultilineFormItem.razor",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\MultilineFormItem.razor",
+              "RelativeDocumentMoniker": "DIPS.FastTrak\\Components\\MultilineFormItem.razor",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\MultilineFormItem.razor",
+              "RelativeToolTip": "DIPS.FastTrak\\Components\\MultilineFormItem.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-10T09:02:50.078Z",
+              "WhenOpened": "2024-10-12T11:38:36.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "FormItem.razor",
-              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\FormItem.razor",
-              "RelativeDocumentMoniker": "DIPS.FastTrak\\Components\\FormItem.razor",
-              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\FormItem.razor",
-              "RelativeToolTip": "DIPS.FastTrak\\Components\\FormItem.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-08T18:08:10.836Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "FormPage.razor",
-              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\FormPage.razor",
-              "RelativeDocumentMoniker": "DIPS.FastTrak\\Components\\FormPage.razor",
-              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\FormPage.razor",
-              "RelativeToolTip": "DIPS.FastTrak\\Components\\FormPage.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-10T07:03:18.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
               "Title": "FormItem.razor.css",
               "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\FormItem.razor.css",
               "RelativeDocumentMoniker": "DIPS.FastTrak\\Components\\FormItem.razor.css",
               "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\FormItem.razor.css",
               "RelativeToolTip": "DIPS.FastTrak\\Components\\FormItem.razor.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-08T18:08:11.9Z",
+              "WhenOpened": "2024-10-12T17:20:41.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormItem.razor",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\FormItem.razor",
+              "RelativeDocumentMoniker": "DIPS.FastTrak\\Components\\FormItem.razor",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\FormItem.razor",
+              "RelativeToolTip": "DIPS.FastTrak\\Components\\FormItem.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T08:53:09.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IconAnswerFormItem.razor.css",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\IconAnswerFormItem.razor.css",
+              "RelativeDocumentMoniker": "DIPS.FastTrak\\Components\\IconAnswerFormItem.razor.css",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\IconAnswerFormItem.razor.css",
+              "RelativeToolTip": "DIPS.FastTrak\\Components\\IconAnswerFormItem.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-12T11:13:23.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormPage.razor",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\FormPage.razor",
+              "RelativeDocumentMoniker": "DIPS.FastTrak\\Components\\FormPage.razor",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\FormPage.razor",
+              "RelativeToolTip": "DIPS.FastTrak\\Components\\FormPage.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T08:53:11.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SearchBar.razor.css",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\SearchBar.razor.css",
+              "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\SearchBar.razor.css",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\SearchBar.razor.css",
+              "RelativeToolTip": "DIPS.FastTrak.UI\\SearchBar.razor.css",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-12T08:15:46.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SearchBar.razor",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\SearchBar.razor",
+              "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\SearchBar.razor",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\SearchBar.razor",
+              "RelativeToolTip": "DIPS.FastTrak.UI\\SearchBar.razor",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAiwG4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T17:58:29.845Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "variables.css",
-              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\css\\variables.css",
-              "RelativeDocumentMoniker": "DIPS.FastTrak\\wwwroot\\css\\variables.css",
-              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\css\\variables.css",
-              "RelativeToolTip": "DIPS.FastTrak\\wwwroot\\css\\variables.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-08T15:31:44.306Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "TitleBar.razor.css",
-              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Layout\\TitleBar.razor.css",
-              "RelativeDocumentMoniker": "DIPS.FastTrak\\Layout\\TitleBar.razor.css",
-              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Layout\\TitleBar.razor.css",
-              "RelativeToolTip": "DIPS.FastTrak\\Layout\\TitleBar.razor.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-08T15:31:54.867Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "PanelTextBox.razor.css",
-              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\PanelTextBox.razor.css",
-              "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\PanelTextBox.razor.css",
-              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\PanelTextBox.razor.css",
-              "RelativeToolTip": "DIPS.FastTrak.UI\\PanelTextBox.razor.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-09T19:05:27.955Z",
+              "Title": "SubPanel.razor",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\SubPanel.razor",
+              "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\SubPanel.razor",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\SubPanel.razor",
+              "RelativeToolTip": "DIPS.FastTrak.UI\\SubPanel.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T14:53:42.262Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "TitleBar.razor",
-              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Layout\\TitleBar.razor",
-              "RelativeDocumentMoniker": "DIPS.FastTrak\\Layout\\TitleBar.razor",
-              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Layout\\TitleBar.razor",
-              "RelativeToolTip": "DIPS.FastTrak\\Layout\\TitleBar.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "StatusBar.razor",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Layout\\StatusBar.razor",
+              "RelativeDocumentMoniker": "DIPS.FastTrak\\Layout\\StatusBar.razor",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Layout\\StatusBar.razor",
+              "RelativeToolTip": "DIPS.FastTrak\\Layout\\StatusBar.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-08T15:31:51.955Z"
+              "WhenOpened": "2024-10-11T13:50:16.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "DIPS.FastTrak\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "DIPS.FastTrak\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T08:51:10.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "light.css",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\css\\themes\\light.css",
+              "RelativeDocumentMoniker": "DIPS.FastTrak\\wwwroot\\css\\themes\\light.css",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\css\\themes\\light.css",
+              "RelativeToolTip": "DIPS.FastTrak\\wwwroot\\css\\themes\\light.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-10T12:54:34.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "dark.css",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\css\\themes\\dark.css",
+              "RelativeDocumentMoniker": "DIPS.FastTrak\\wwwroot\\css\\themes\\dark.css",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\css\\themes\\dark.css",
+              "RelativeToolTip": "DIPS.FastTrak\\wwwroot\\css\\themes\\dark.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-10T12:54:19.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PatientJournal.razor",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Pages\\PatientJournal.razor",
+              "RelativeDocumentMoniker": "DIPS.FastTrak\\Pages\\PatientJournal.razor",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Pages\\PatientJournal.razor",
+              "RelativeToolTip": "DIPS.FastTrak\\Pages\\PatientJournal.razor",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAiwLYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T12:52:24.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "DIPS.FastTrak\\wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "DIPS.FastTrak\\wwwroot\\css\\app.css",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAiwHsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-10T12:54:47.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PopulationsService.cs",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Services\\PopulationsService.cs",
+              "RelativeDocumentMoniker": "DIPS.FastTrak\\Services\\PopulationsService.cs",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Services\\PopulationsService.cs",
+              "RelativeToolTip": "DIPS.FastTrak\\Services\\PopulationsService.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T12:27:23.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DrugsService.cs",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Services\\DrugsService.cs",
+              "RelativeDocumentMoniker": "DIPS.FastTrak\\Services\\DrugsService.cs",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Services\\DrugsService.cs",
+              "RelativeToolTip": "DIPS.FastTrak\\Services\\DrugsService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T12:27:05.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ToolButton.razor.css",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\ToolButton.razor.css",
+              "RelativeDocumentMoniker": "DIPS.FastTrak.UI\\ToolButton.razor.css",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak.UI\\ToolButton.razor.css",
+              "RelativeToolTip": "DIPS.FastTrak.UI\\ToolButton.razor.css",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-10T11:14:30.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FormPage.razor.css",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\FormPage.razor.css",
+              "RelativeDocumentMoniker": "DIPS.FastTrak\\Components\\FormPage.razor.css",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\FormPage.razor.css",
+              "RelativeToolTip": "DIPS.FastTrak\\Components\\FormPage.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-10T10:38:37.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FormControl.razor.css",
+              "DocumentMoniker": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\FormControl.razor.css",
+              "RelativeDocumentMoniker": "DIPS.FastTrak\\Components\\FormControl.razor.css",
+              "ToolTip": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\Components\\FormControl.razor.css",
+              "RelativeToolTip": "DIPS.FastTrak\\Components\\FormControl.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-10T10:37:07.813Z"
             }
           ]
         }

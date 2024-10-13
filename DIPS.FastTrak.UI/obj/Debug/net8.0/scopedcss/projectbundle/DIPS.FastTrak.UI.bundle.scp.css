@@ -326,14 +326,6 @@
             fill: var(--text);
         }
 
-        .SearchBar > button:hover[b-nkylzkqkae] {
-            background: var(--secondaryPrimary);
-        }
-
-        .SearchBar > button:hover > svg[b-nkylzkqkae] {
-            fill: #fff;
-        }
-
 .SearchResults[b-nkylzkqkae] {
     background: #0A0D30;
     border-radius: var(--borderRadiusLarge);

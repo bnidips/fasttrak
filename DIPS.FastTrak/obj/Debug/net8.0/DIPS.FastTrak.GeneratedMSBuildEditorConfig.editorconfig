@@ -1,4 +1,8 @@
 is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
 build_property.TargetFramework = net8.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
@@ -6,66 +10,74 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = false
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
-build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = browser
 build_property.RootNamespace = DIPS.FastTrak
 build_property.RootNamespace = DIPS.FastTrak
-build_property.ProjectDir = C:\work\fasttrakweb\DIPS.FastTrak\
+build_property.ProjectDir = C:\Projects\FastTrak\DIPS.FastTrak\
 build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\work\fasttrakweb\DIPS.FastTrak
+build_property.MSBuildProjectDirectory = C:\Projects\FastTrak\DIPS.FastTrak
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/work/fasttrakweb/DIPS.FastTrak/App.razor]
+[C:/Projects/FastTrak/DIPS.FastTrak/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/work/fasttrakweb/DIPS.FastTrak/Layout/MainLayout.razor]
+[C:/Projects/FastTrak/DIPS.FastTrak/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/work/fasttrakweb/DIPS.FastTrak/Pages/LabData.razor]
+[C:/Projects/FastTrak/DIPS.FastTrak/Pages/LabData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGFiRGF0YS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/work/fasttrakweb/DIPS.FastTrak/Pages/PatientJournal.razor]
+[C:/Projects/FastTrak/DIPS.FastTrak/Pages/PatientJournal.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF0aWVudEpvdXJuYWwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/work/fasttrakweb/DIPS.FastTrak/Pages/Populations.razor]
+[C:/Projects/FastTrak/DIPS.FastTrak/Pages/Populations.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9wdWxhdGlvbnMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/work/fasttrakweb/DIPS.FastTrak/_Imports.razor]
+[C:/Projects/FastTrak/DIPS.FastTrak/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/work/fasttrakweb/DIPS.FastTrak/Components/FormControl.razor]
+[C:/Projects/FastTrak/DIPS.FastTrak/Components/FormControl.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGb3JtQ29udHJvbC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-c92zg1gefy
 
-[C:/work/fasttrakweb/DIPS.FastTrak/Components/FormItem.razor]
+[C:/Projects/FastTrak/DIPS.FastTrak/Components/FormItem.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGb3JtSXRlbS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-3mk5k9t7db
 
-[C:/work/fasttrakweb/DIPS.FastTrak/Components/FormPage.razor]
+[C:/Projects/FastTrak/DIPS.FastTrak/Components/FormPage.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGb3JtUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-97pehkrjjx
 
-[C:/work/fasttrakweb/DIPS.FastTrak/Components/QuantityFormItem.razor]
+[C:/Projects/FastTrak/DIPS.FastTrak/Components/IconAnswerFormItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJY29uQW5zd2VyRm9ybUl0ZW0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-jx0pvbrllg
+
+[C:/Projects/FastTrak/DIPS.FastTrak/Components/MultilineFormItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNdWx0aWxpbmVGb3JtSXRlbS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-7t4kkolf9c
+
+[C:/Projects/FastTrak/DIPS.FastTrak/Components/QuantityFormItem.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xRdWFudGl0eUZvcm1JdGVtLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-sd53q3d7vb
 
-[C:/work/fasttrakweb/DIPS.FastTrak/Layout/StatusBar.razor]
+[C:/Projects/FastTrak/DIPS.FastTrak/Layout/StatusBar.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XFN0YXR1c0Jhci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-59idrnadfk
 
-[C:/work/fasttrakweb/DIPS.FastTrak/Layout/TabsBar.razor]
+[C:/Projects/FastTrak/DIPS.FastTrak/Layout/TabsBar.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XFRhYnNCYXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-20kqeuw5wb
 
-[C:/work/fasttrakweb/DIPS.FastTrak/Layout/TitleBar.razor]
+[C:/Projects/FastTrak/DIPS.FastTrak/Layout/TitleBar.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XFRpdGxlQmFyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-2qrtj38o6g

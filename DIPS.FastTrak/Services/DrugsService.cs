@@ -1,6 +1,5 @@
 ﻿using DIPS.FastTrak.Models;
 using DIPS.FastTrak.UI;
-using System.Diagnostics;
 
 namespace DIPS.FastTrak.Services;
 
@@ -42,14 +41,14 @@ public class DrugsService : IDrugsService, ISearchProvider
             switch (studyCase.PersonId)
             {
                 case 1:
-                    list.Add(new DrugTreatment(searchProvider: this, drugName: "Marevan"));
-                    list.Add(new DrugTreatment(searchProvider: this, drugName: "Burinex"));
-                    list.Add(new DrugTreatment(searchProvider: this, drugName: "Levaxin"));
+                    list.Add(new DrugTreatment(searchProvider: this, drugName: "Marevan", treatType: TreatType.Regular, rxText: "2 x 1"));
+                    list.Add(new DrugTreatment(searchProvider: this, drugName: "Burinex", treatType: TreatType.AsNeeded, rxText: "2 x 1"));
+                    list.Add(new DrugTreatment(searchProvider: this, drugName: "Levaxin", treatType: TreatType.Regular, rxText: "2 x 1"));
                     break;
                 default:
-                    list.Add(new DrugTreatment(searchProvider: this, drugName: "Zocor"));
-                    list.Add(new DrugTreatment(searchProvider: this, drugName: "Keflex"));
-                    list.Add(new DrugTreatment(searchProvider: this, drugName: "Paralgin"));
+                    list.Add(new DrugTreatment(searchProvider: this, drugName: "Zocor", treatType: TreatType.Regular, rxText: "2 x 1"));
+                    list.Add(new DrugTreatment(searchProvider: this, drugName: "Keflex", treatType: TreatType.AsNeeded, rxText: "2 x 1"));
+                    list.Add(new DrugTreatment(searchProvider: this, drugName: "Paralgin", treatType: TreatType.Regular, rxText: "2 x 1"));
                     break;
             }
         }
@@ -68,6 +67,6 @@ public class DrugsService : IDrugsService, ISearchProvider
 
     public void Execute(ISearchResult result)
     {
-        throw new NotImplementedException();
+        
     }
 }

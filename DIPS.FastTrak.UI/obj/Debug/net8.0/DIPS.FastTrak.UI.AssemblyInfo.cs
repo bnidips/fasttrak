@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DIPS.FastTrak.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a14b8d986d94cd9da54906c99a9bcbe9789600e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+801ccddce924449e011e5554e6753c3cb624f6aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("DIPS.FastTrak.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DIPS.FastTrak.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

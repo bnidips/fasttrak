@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YYpb3NZyjYWY6QoRdAh5W/mjUF2URbl+OnIhFugSrqA=",
+  "Hash": "frF6Cf9TNkHdHTkRVUEv4CwOBA9JmEEqm+vD7TKdwfU=",
   "Source": "DIPS.FastTrak",
   "BasePath": "/",
   "Mode": "Root",
@@ -8263,6 +8263,25 @@
       "OriginalItemSpec": "wwwroot\\images\\person.svg"
     },
     {
+      "Identity": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\images\\pill.svg",
+      "SourceId": "DIPS.FastTrak",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/pill.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pill.svg"
+    },
+    {
       "Identity": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\images\\settings.svg",
       "SourceId": "DIPS.FastTrak",
       "SourceType": "Discovered",
@@ -8299,6 +8318,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\web.config",
+      "SourceId": "DIPS.FastTrak",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\FastTrak\\DIPS.FastTrak\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "web.config",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\web.config"
     }
   ]
 }

@@ -1,16 +1,15 @@
 ﻿<footer class="StatusBar">
     <section>
-        <PopupMenu>
+        <PopupList T="string" Items="Protocols" OnSelect="(pr) => Protocol = pr">
             <ChildContent>
                 <DropButton>NDV</DropButton>
             </ChildContent>
-            <MenuOptions>
-                <MenuOption Text="ENDO" />
-                <MenuOption Text="GBD" />
-            </MenuOptions>
-        </PopupMenu>
+        </PopupList>
     </section>
 </footer>
 
 @code {
+    List<string> Protocols = ["NDV", "GBD", "ENDO"];
+
+    string Protocol = "NDV";
 }

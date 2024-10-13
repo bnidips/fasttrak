@@ -4,6 +4,7 @@
 @inject IAutorization Authorization
 @inject IGlobalSearch GlobalSearch
 @inject IUiService Ui
+@inject IClinFormsService ClinForms
 @inject NavigationManager Navigation
 
 <PageTitle>FastTrak</PageTitle>
@@ -46,7 +47,7 @@
                                 </ItemTemplate>
                             </ListBox>
                         </SubPanel>
-                        <SubPanel>
+                        <SubPanel Separator="false">
                             <Toggle style="color: var(--text); font-size: smaller">Bare min egen gruppe</Toggle>
                         </SubPanel>
                     </ChildContent>

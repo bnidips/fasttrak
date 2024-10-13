@@ -1,5 +1,6 @@
 ﻿.FormItem {
     color: var(--text);
+    padding-bottom: var(--borderRadiusLarge);
 }
 
 .FormItem h3 {

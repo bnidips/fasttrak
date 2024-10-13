@@ -168,19 +168,24 @@
                                 </svg>
                             </ToolButton>
                         </Toolbar>
-                        <SubPanel>
+                        <SubPanel Separator="false">
                             <ListBox T="DrugTreatment" Items="DrugService.DrugTreatments">
                                 <ItemTemplate>
                                     @switch (context.TreatType)
                                     {
                                         case TreatType.Regular:
-                                            <span>Fast</span>
+                                            <span class="TreatType">Fast</span>
                                             break;
                                         case TreatType.AsNeeded:
-                                            <span>Behov</span>
+                                            <span class="TreatType">Behov</span>
                                             break;
                                     }
-                                    @context.DrugName
+                                    <span class="DrugName">
+                                        @context.DrugName
+                                    </span>
+                                    <span class="RxText">
+                                        @context.RxText
+                                    </span>
                                 </ItemTemplate>
                             </ListBox>
                         </SubPanel>
