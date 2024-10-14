@@ -121,6 +121,7 @@ main {
 
 .DrugName {
     flex: 1;
+    text-align: left;
 }
 
 .RxText {

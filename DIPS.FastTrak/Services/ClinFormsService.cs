@@ -24,8 +24,9 @@ namespace DIPS.FastTrak.Services
             ClinForms.Clear();
             if (studyCase != null)
             {
-                ClinForms.Add(new ClinForm(new MetaForm(1307, "DIAPOL_INSULIN", "Insulinbehandling"), clinFormId: 12));
-                ClinForms.Add(new ClinForm(new MetaForm(1430, "DIAPOL_MAIN", "Poliklinisk kontroll diabetes"), clinFormId: 16));
+                ClinForms.Add(new ClinForm(new MetaForm(1307, "DIAPOL_INSULIN", "Insulinbehandling"), clinFormId: 12) { CreatedAt = DateTime.Today });
+                ClinForms.Add(new ClinForm(new MetaForm(1430, "DIAPOL_MAIN", "Poliklinisk kontroll diabetes"), clinFormId: 16) { CreatedAt = DateTime.Today.AddDays(-1) });
+                ClinForms.Add(new ClinForm(new MetaForm(1226, "DiaEpicrise", "Epikrise diabetes"), clinFormId: 18) { CreatedAt = DateTime.Today.AddDays(-3) });
             }
         }
     }

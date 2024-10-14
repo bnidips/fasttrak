@@ -47,7 +47,7 @@
                 <ListBox T="ClinForm" Items="ClinFormsService.ClinForms" style="flex: 1">
                     <ItemTemplate>
                         <div style="display: flex; justify-content: space-between; flex-grow: 1">
-                            <span style="width: 60px">@context.CreatedAt.ToShortDateString()</span>
+                            <span style="width: 60px">@context.CreatedAt.ToFriendlyString()</span>
                             <span style="flex: 1; text-align: left">@context.MetaForm.FormTitle</span>
                             <span style="width: 40px">Signert</span>
                         </div>

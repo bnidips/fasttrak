@@ -60,7 +60,7 @@
 }
 /* /Components/QuantityFormItem.razor.rz.scp.css */
 .QuantityFormItem[b-sd53q3d7vb] {
-    align-items: center;
+    align-items: stretch;
     background: var(--neutralLight);
     display: flex;
     height: 24px;

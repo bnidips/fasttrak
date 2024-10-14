@@ -1,5 +1,5 @@
 ﻿.QuantityFormItem {
-    align-items: center;
+    align-items: stretch;
     background: var(--neutralLight);
     display: flex;
     height: 24px;
